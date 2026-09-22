@@ -1,0 +1,2569 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 19:32:48",
+    "retry_mode": false
+  },
+  "samples": {
+    "q0001": {
+      "id": "q0001",
+      "type": "single",
+      "question": "我想办休学，需要怎么申请？最多能休学几次，每次能休多长时间？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          6,
+          3,
+          24,
+          0.8817
+        ],
+        [
+          2,
+          3,
+          23,
+          0.8263
+        ],
+        [
+          19,
+          7,
+          21,
+          0.8087
+        ],
+        [
+          19,
+          7,
+          23,
+          0.754
+        ],
+        [
+          19,
+          7,
+          25,
+          0.734
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8817,
+        "min_score": 0.6972,
+        "avg_score": 0.7565,
+        "count_above_threshold": 9,
+        "ratio_above_threshold": 0.9,
+        "scores": [
+          0.8817,
+          0.8263,
+          0.8087,
+          0.754,
+          0.734,
+          0.727,
+          0.7177,
+          0.7149,
+          0.7033,
+          0.6972
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8817,
+        "killed_by_threshold": false
+      }
+    },
+    "q0002": {
+      "id": "q0002",
+      "type": "single",
+      "question": "我想在课余时间做勤工助学或者参加社会服务，学校允许吗？有什么具体要求？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          1,
+          6,
+          51,
+          0.8768
+        ],
+        [
+          38,
+          1,
+          3,
+          0.7972
+        ],
+        [
+          6,
+          4,
+          48,
+          0.7891
+        ],
+        [
+          2,
+          4,
+          42,
+          0.7885
+        ],
+        [
+          38,
+          1,
+          1,
+          0.772
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8768,
+        "min_score": 0.7168,
+        "avg_score": 0.7749,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8768,
+          0.7972,
+          0.7891,
+          0.7885,
+          0.772,
+          0.7635,
+          0.7562,
+          0.7525,
+          0.7364,
+          0.7168
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8768,
+        "killed_by_threshold": false
+      }
+    },
+    "q0003": {
+      "id": "q0003",
+      "type": "single",
+      "question": "我要出国但还没签就业协议，户口和档案能留在学校吗？最长能保留多久？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          17,
+          4,
+          28,
+          0.9604
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9604,
+        "min_score": 0.5785,
+        "avg_score": 0.6508,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.9604,
+          0.6756,
+          0.6592,
+          0.6575,
+          0.6114,
+          0.6004,
+          0.5951,
+          0.5894,
+          0.5809,
+          0.5785
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.9604,
+        "killed_by_threshold": false
+      }
+    },
+    "q0004": {
+      "id": "q0004",
+      "type": "single",
+      "question": "参加老师的科研项目，项目结项、获奖和成果转化怎么认定学分？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          15,
+          5,
+          13,
+          0.9582
+        ],
+        [
+          15,
+          5,
+          9,
+          0.7512
+        ],
+        [
+          15,
+          5,
+          8,
+          0.7185
+        ],
+        [
+          15,
+          5,
+          10,
+          0.7098
+        ],
+        [
+          2,
+          3,
+          15,
+          0.7073
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9582,
+        "min_score": 0.6625,
+        "avg_score": 0.7205,
+        "count_above_threshold": 5,
+        "ratio_above_threshold": 0.5,
+        "scores": [
+          0.9582,
+          0.7512,
+          0.7185,
+          0.7098,
+          0.7073,
+          0.6869,
+          0.6768,
+          0.6678,
+          0.6659,
+          0.6625
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.9582,
+        "killed_by_threshold": false
+      }
+    },
+    "q0005": {
+      "id": "q0005",
+      "type": "single",
+      "question": "要是违反了学生手册里的要求，学校会按什么文件来处分学生啊？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [
+        [
+          2,
+          5,
+          50,
+          0.7812
+        ],
+        [
+          6,
+          5,
+          56,
+          0.7804
+        ],
+        [
+          2,
+          5,
+          47,
+          0.768
+        ],
+        [
+          10,
+          1,
+          3,
+          0.7663
+        ],
+        [
+          6,
+          5,
+          53,
+          0.7663
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7812,
+        "min_score": 0.7433,
+        "avg_score": 0.7588,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.7812,
+          0.7804,
+          0.768,
+          0.7663,
+          0.7663,
+          0.7484,
+          0.7461,
+          0.7449,
+          0.7434,
+          0.7433
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0006": {
+      "id": "q0006",
+      "type": "single",
+      "question": "预科阶段的教学计划和教材是怎么制定和征订的？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          7,
+          3,
+          12,
+          0.8653
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8653,
+        "min_score": 0.6226,
+        "avg_score": 0.6743,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.8653,
+          0.6955,
+          0.6906,
+          0.6577,
+          0.6541,
+          0.6527,
+          0.6497,
+          0.6319,
+          0.6231,
+          0.6226
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8653,
+        "killed_by_threshold": false
+      }
+    },
+    "q0007": {
+      "id": "q0007",
+      "type": "single",
+      "question": "学校对学生是怎么管理的？",
+      "level": "article",
+      "docs_count": 3,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          6,
+          1,
+          5,
+          0.7542
+        ],
+        [
+          2,
+          1,
+          5,
+          0.7165
+        ],
+        [
+          2,
+          1,
+          2,
+          0.705
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7542,
+        "min_score": 0.6545,
+        "avg_score": 0.6933,
+        "count_above_threshold": 3,
+        "ratio_above_threshold": 0.3,
+        "scores": [
+          0.7542,
+          0.7165,
+          0.705,
+          0.699,
+          0.6863,
+          0.6861,
+          0.6855,
+          0.6796,
+          0.6658,
+          0.6545
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.7542,
+        "killed_by_threshold": false
+      }
+    },
+    "q0008": {
+      "id": "q0008",
+      "type": "single",
+      "question": "学生有哪些行为会被教育考试机构通报给学校，甚至直接被开除学籍？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 0.5,
+      "ndcg@5": 0.6309297535714575,
+      "retrieved_triples": [
+        [
+          10,
+          3,
+          27,
+          0.8565
+        ],
+        [
+          4,
+          2,
+          11,
+          0.8505
+        ],
+        [
+          2,
+          5,
+          48,
+          0.8127
+        ],
+        [
+          6,
+          5,
+          54,
+          0.8016
+        ],
+        [
+          4,
+          2,
+          16,
+          0.7845
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8565,
+        "min_score": 0.7336,
+        "avg_score": 0.7839,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8565,
+          0.8505,
+          0.8127,
+          0.8016,
+          0.7845,
+          0.7587,
+          0.7574,
+          0.7424,
+          0.7415,
+          0.7336
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 2,
+        "raw_score": 0.8505,
+        "killed_by_threshold": false
+      }
+    },
+    "q0009": {
+      "id": "q0009",
+      "type": "single",
+      "question": "休学复学之后，之前修过的课程成绩怎么认定？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          31,
+          4,
+          10,
+          0.8931
+        ],
+        [
+          6,
+          3,
+          17,
+          0.8022
+        ],
+        [
+          2,
+          3,
+          27,
+          0.7291
+        ],
+        [
+          32,
+          2,
+          8,
+          0.7211
+        ],
+        [
+          6,
+          3,
+          29,
+          0.7005
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8931,
+        "min_score": 0.6721,
+        "avg_score": 0.7282,
+        "count_above_threshold": 5,
+        "ratio_above_threshold": 0.5,
+        "scores": [
+          0.8931,
+          0.8022,
+          0.7291,
+          0.7211,
+          0.7005,
+          0.6997,
+          0.694,
+          0.6871,
+          0.6827,
+          0.6721
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8931,
+        "killed_by_threshold": false
+      }
+    },
+    "q0010": {
+      "id": "q0010",
+      "type": "single",
+      "question": "学生手册适用于哪些学校和学生？",
+      "level": "article",
+      "docs_count": 3,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [
+        [
+          41,
+          1,
+          3,
+          0.7091
+        ],
+        [
+          10,
+          1,
+          2,
+          0.7082
+        ],
+        [
+          38,
+          1,
+          2,
+          0.7062
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7091,
+        "min_score": 0.6854,
+        "avg_score": 0.6962,
+        "count_above_threshold": 3,
+        "ratio_above_threshold": 0.3,
+        "scores": [
+          0.7091,
+          0.7082,
+          0.7062,
+          0.6974,
+          0.6957,
+          0.6902,
+          0.6902,
+          0.6901,
+          0.6897,
+          0.6854
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0011": {
+      "id": "q0011",
+      "type": "single",
+      "question": "在大学里违反教育法规定会怎么处理？",
+      "level": "article",
+      "docs_count": 3,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          1,
+          8,
+          59,
+          0.8846
+        ],
+        [
+          18,
+          7,
+          33,
+          0.7248
+        ],
+        [
+          2,
+          5,
+          47,
+          0.7074
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8846,
+        "min_score": 0.689,
+        "avg_score": 0.7179,
+        "count_above_threshold": 3,
+        "ratio_above_threshold": 0.3,
+        "scores": [
+          0.8846,
+          0.7248,
+          0.7074,
+          0.6994,
+          0.6977,
+          0.6967,
+          0.6966,
+          0.6933,
+          0.6899,
+          0.689
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8846,
+        "killed_by_threshold": false
+      }
+    },
+    "q0012": {
+      "id": "q0012",
+      "type": "single",
+      "question": "考试违规被处理的时候，教育考试机构在做出处理决定前需要走什么程序？如果我对违规事实有异议能申辩吗？被停考的话能申请听证吗？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          4,
+          3,
+          23,
+          0.9332
+        ],
+        [
+          4,
+          3,
+          24,
+          0.7946
+        ],
+        [
+          4,
+          3,
+          25,
+          0.779
+        ],
+        [
+          4,
+          3,
+          22,
+          0.7545
+        ],
+        [
+          4,
+          3,
+          26,
+          0.751
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9332,
+        "min_score": 0.7211,
+        "avg_score": 0.7651,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.9332,
+          0.7946,
+          0.779,
+          0.7545,
+          0.751,
+          0.7395,
+          0.7268,
+          0.7262,
+          0.7254,
+          0.7211
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.9332,
+        "killed_by_threshold": false
+      }
+    },
+    "q0013": {
+      "id": "q0013",
+      "type": "single",
+      "question": "我带电脑和行李进出宿舍楼，需要去值班室登记吗？",
+      "level": "article",
+      "docs_count": 2,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          13,
+          5,
+          27,
+          0.9245
+        ],
+        [
+          13,
+          4,
+          14,
+          0.7329
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9245,
+        "min_score": 0.6213,
+        "avg_score": 0.683,
+        "count_above_threshold": 2,
+        "ratio_above_threshold": 0.2,
+        "scores": [
+          0.9245,
+          0.7329,
+          0.6902,
+          0.6721,
+          0.6708,
+          0.6419,
+          0.6283,
+          0.6251,
+          0.6231,
+          0.6213
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.9245,
+        "killed_by_threshold": false
+      }
+    },
+    "q0014": {
+      "id": "q0014",
+      "type": "single",
+      "question": "立项项目实施期间，要是想换项目负责人、团队成员、指导老师或者主要研究内容，需要走什么流程才能变更啊？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          14,
+          3,
+          16,
+          0.8651
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8651,
+        "min_score": 0.5701,
+        "avg_score": 0.6315,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.8651,
+          0.6827,
+          0.6123,
+          0.6116,
+          0.6027,
+          0.6019,
+          0.5978,
+          0.5926,
+          0.5785,
+          0.5701
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8651,
+        "killed_by_threshold": false
+      }
+    },
+    "q0015": {
+      "id": "q0015",
+      "type": "single",
+      "question": "学院在国家奖学金的评审和发放方面有什么具体要求，怎么保证发给特别优秀的学生呢？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          39,
+          5,
+          9,
+          0.9181
+        ],
+        [
+          40,
+          5,
+          12,
+          0.8162
+        ],
+        [
+          39,
+          3,
+          2,
+          0.8101
+        ],
+        [
+          39,
+          5,
+          11,
+          0.8066
+        ],
+        [
+          39,
+          4,
+          4,
+          0.7882
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9181,
+        "min_score": 0.731,
+        "avg_score": 0.7902,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.9181,
+          0.8162,
+          0.8101,
+          0.8066,
+          0.7882,
+          0.7781,
+          0.7585,
+          0.7523,
+          0.743,
+          0.731
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.9181,
+        "killed_by_threshold": false
+      }
+    },
+    "q0016": {
+      "id": "q0016",
+      "type": "single",
+      "question": "学校会给毕业生提供就业指导和服务吗？国家鼓不鼓励我们去边远艰苦地区工作？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          1,
+          6,
+          54,
+          0.8955
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8955,
+        "min_score": 0.5351,
+        "avg_score": 0.5969,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.8955,
+          0.6,
+          0.5896,
+          0.5797,
+          0.5745,
+          0.5583,
+          0.5487,
+          0.5456,
+          0.5417,
+          0.5351
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8955,
+        "killed_by_threshold": false
+      }
+    },
+    "q0017": {
+      "id": "q0017",
+      "type": "single",
+      "question": "我想竞选学生社团的负责人或者部门负责人，需要满足什么条件，具体的选拔流程是怎样的？",
+      "level": "article",
+      "docs_count": 2,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          12,
+          5,
+          19,
+          0.831
+        ],
+        [
+          12,
+          3,
+          8,
+          0.7112
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.831,
+        "min_score": 0.6545,
+        "avg_score": 0.6911,
+        "count_above_threshold": 2,
+        "ratio_above_threshold": 0.2,
+        "scores": [
+          0.831,
+          0.7112,
+          0.6903,
+          0.6864,
+          0.6784,
+          0.6775,
+          0.6687,
+          0.6581,
+          0.655,
+          0.6545
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.831,
+        "killed_by_threshold": false
+      }
+    },
+    "q0018": {
+      "id": "q0018",
+      "type": "single",
+      "question": "课程成绩是怎么评定的？用的什么计分方式？多少分算及格？及格了就能拿到学分吗？",
+      "level": "article",
+      "docs_count": 2,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          31,
+          3,
+          6,
+          0.8382
+        ],
+        [
+          31,
+          3,
+          8,
+          0.7424
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8382,
+        "min_score": 0.6303,
+        "avg_score": 0.6734,
+        "count_above_threshold": 2,
+        "ratio_above_threshold": 0.2,
+        "scores": [
+          0.8382,
+          0.7424,
+          0.6687,
+          0.6475,
+          0.6455,
+          0.6446,
+          0.6406,
+          0.6402,
+          0.636,
+          0.6303
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8382,
+        "killed_by_threshold": false
+      }
+    },
+    "q0019": {
+      "id": "q0019",
+      "type": "single",
+      "question": "宿舍里的床、柜子、桌椅这些公共设施能随便挪动吗？弄坏了要赔钱吗？如果不知道是谁弄的怎么办？故意损坏会怎么处理？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          13,
+          6,
+          31,
+          0.8865
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8865,
+        "min_score": 0.6235,
+        "avg_score": 0.6706,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.8865,
+          0.6742,
+          0.6615,
+          0.657,
+          0.6495,
+          0.6462,
+          0.6412,
+          0.6381,
+          0.6284,
+          0.6235
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8865,
+        "killed_by_threshold": false
+      }
+    },
+    "q0020": {
+      "id": "q0020",
+      "type": "single",
+      "question": "基地班大一大二的学生什么情况下会被退出来？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          34,
+          6,
+          27,
+          0.8915
+        ],
+        [
+          34,
+          4,
+          9,
+          0.8183
+        ],
+        [
+          34,
+          6,
+          28,
+          0.7871
+        ],
+        [
+          34,
+          6,
+          29,
+          0.7721
+        ],
+        [
+          34,
+          6,
+          30,
+          0.7717
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8915,
+        "min_score": 0.6877,
+        "avg_score": 0.7588,
+        "count_above_threshold": 8,
+        "ratio_above_threshold": 0.8,
+        "scores": [
+          0.8915,
+          0.8183,
+          0.7871,
+          0.7721,
+          0.7717,
+          0.7376,
+          0.7246,
+          0.7004,
+          0.6973,
+          0.6877
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8915,
+        "killed_by_threshold": false
+      }
+    },
+    "q0021": {
+      "id": "q0021",
+      "type": "single",
+      "question": "咱们学校新出的学生出国管理办法什么时候开始实行？以前的老办法是不是就都作废了？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          17,
+          5,
+          33,
+          0.8106
+        ],
+        [
+          16,
+          6,
+          27,
+          0.7404
+        ],
+        [
+          17,
+          1,
+          1,
+          0.7188
+        ],
+        [
+          42,
+          5,
+          11,
+          0.7054
+        ],
+        [
+          42,
+          5,
+          12,
+          0.702
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8106,
+        "min_score": 0.6561,
+        "avg_score": 0.7052,
+        "count_above_threshold": 5,
+        "ratio_above_threshold": 0.5,
+        "scores": [
+          0.8106,
+          0.7404,
+          0.7188,
+          0.7054,
+          0.702,
+          0.6985,
+          0.6926,
+          0.6711,
+          0.6561,
+          0.6561
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8106,
+        "killed_by_threshold": false
+      }
+    },
+    "q0022": {
+      "id": "q0022",
+      "type": "single",
+      "question": "高等教育都有哪些类型、形式和学习方式啊？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          1,
+          2,
+          14,
+          0.7591
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7591,
+        "min_score": 0.5638,
+        "avg_score": 0.6091,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.7591,
+          0.6471,
+          0.5984,
+          0.5979,
+          0.5976,
+          0.592,
+          0.5864,
+          0.5796,
+          0.5688,
+          0.5638
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.7591,
+        "killed_by_threshold": false
+      }
+    },
+    "q0023": {
+      "id": "q0023",
+      "type": "single",
+      "question": "华北水利水电大学新的大学生科技创新奖励办法什么时候开始实行？以前那个2015年的老办法是不是就作废了？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          9,
+          4,
+          11,
+          0.8845
+        ],
+        [
+          14,
+          6,
+          25,
+          0.8419
+        ],
+        [
+          8,
+          6,
+          12,
+          0.8033
+        ],
+        [
+          39,
+          6,
+          13,
+          0.7983
+        ],
+        [
+          40,
+          6,
+          16,
+          0.7954
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8845,
+        "min_score": 0.7517,
+        "avg_score": 0.7948,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8845,
+          0.8419,
+          0.8033,
+          0.7983,
+          0.7954,
+          0.7715,
+          0.7701,
+          0.7695,
+          0.7619,
+          0.7517
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8845,
+        "killed_by_threshold": false
+      }
+    },
+    "q0024": {
+      "id": "q0024",
+      "type": "single",
+      "question": "成绩录入之后还能随便改吗？要是成绩确实算错了或者录错了该怎么处理？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          31,
+          5,
+          11,
+          0.878
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.878,
+        "min_score": 0.5391,
+        "avg_score": 0.6051,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.878,
+          0.6486,
+          0.6305,
+          0.5754,
+          0.5603,
+          0.5593,
+          0.5545,
+          0.5535,
+          0.5521,
+          0.5391
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.878,
+        "killed_by_threshold": false
+      }
+    },
+    "q0025": {
+      "id": "q0025",
+      "type": "single",
+      "question": "申请的时候需要交哪些材料呀？交上去的复印件和原件还会退给我吗？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          23,
+          6,
+          11,
+          0.878
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.878,
+        "min_score": 0.5342,
+        "avg_score": 0.5903,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.878,
+          0.5948,
+          0.5934,
+          0.5873,
+          0.5529,
+          0.5497,
+          0.5424,
+          0.5362,
+          0.5345,
+          0.5342
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.878,
+        "killed_by_threshold": false
+      }
+    },
+    "q0026": {
+      "id": "q0026",
+      "type": "single",
+      "question": "学生参加体育类和文艺类竞赛获奖后，奖励分别由哪个部门负责组织实施？",
+      "level": "article",
+      "docs_count": 2,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          9,
+          1,
+          4,
+          0.923
+        ],
+        [
+          9,
+          1,
+          3,
+          0.7286
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.923,
+        "min_score": 0.6461,
+        "avg_score": 0.7005,
+        "count_above_threshold": 2,
+        "ratio_above_threshold": 0.2,
+        "scores": [
+          0.923,
+          0.7286,
+          0.6956,
+          0.6874,
+          0.6838,
+          0.6797,
+          0.6685,
+          0.6462,
+          0.6461,
+          0.6461
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.923,
+        "killed_by_threshold": false
+      }
+    },
+    "q0027": {
+      "id": "q0027",
+      "type": "single",
+      "question": "学校宿舍的安全是怎么保障的？都装了哪些安全设施，消防演习又是怎么安排的？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          13,
+          5,
+          19,
+          0.7993
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7993,
+        "min_score": 0.5784,
+        "avg_score": 0.6316,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.7993,
+          0.6636,
+          0.6592,
+          0.6316,
+          0.6169,
+          0.6034,
+          0.5931,
+          0.5858,
+          0.5848,
+          0.5784
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.7993,
+        "killed_by_threshold": false
+      }
+    },
+    "q0028": {
+      "id": "q0028",
+      "type": "single",
+      "question": "推免工作由哪个部门负责监督，学生申诉又该找谁处理？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 0.5,
+      "ndcg@5": 0.6309297535714575,
+      "retrieved_triples": [
+        [
+          23,
+          5,
+          11,
+          0.847
+        ],
+        [
+          23,
+          2,
+          4,
+          0.8159
+        ],
+        [
+          23,
+          2,
+          3,
+          0.7751
+        ],
+        [
+          23,
+          5,
+          9,
+          0.7568
+        ],
+        [
+          23,
+          5,
+          8,
+          0.7549
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.847,
+        "min_score": 0.6855,
+        "avg_score": 0.7502,
+        "count_above_threshold": 8,
+        "ratio_above_threshold": 0.8,
+        "scores": [
+          0.847,
+          0.8159,
+          0.7751,
+          0.7568,
+          0.7549,
+          0.7389,
+          0.7242,
+          0.7059,
+          0.6978,
+          0.6855
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 2,
+        "raw_score": 0.8159,
+        "killed_by_threshold": false
+      }
+    },
+    "q0029": {
+      "id": "q0029",
+      "type": "single",
+      "question": "要是考试工作人员在监考或者改卷的时候违规了，考点负责人会怎么处理他们？",
+      "level": "article",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          4,
+          3,
+          21,
+          0.88
+        ],
+        [
+          4,
+          3,
+          18,
+          0.7998
+        ],
+        [
+          4,
+          2,
+          12,
+          0.7879
+        ],
+        [
+          4,
+          2,
+          14,
+          0.7839
+        ],
+        [
+          4,
+          3,
+          29,
+          0.7754
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.88,
+        "min_score": 0.7288,
+        "avg_score": 0.7803,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.88,
+          0.7998,
+          0.7879,
+          0.7839,
+          0.7754,
+          0.7745,
+          0.7734,
+          0.761,
+          0.7382,
+          0.7288
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.88,
+        "killed_by_threshold": false
+      }
+    },
+    "q0030": {
+      "id": "q0030",
+      "type": "single",
+      "question": "毕设答辩前需要查重吗？具体是按什么办法来检测的？",
+      "level": "article",
+      "docs_count": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          27,
+          6,
+          21,
+          0.8231
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8231,
+        "min_score": 0.6132,
+        "avg_score": 0.6683,
+        "count_above_threshold": 1,
+        "ratio_above_threshold": 0.1,
+        "scores": [
+          0.8231,
+          0.68,
+          0.676,
+          0.6756,
+          0.6577,
+          0.6509,
+          0.6503,
+          0.6368,
+          0.6194,
+          0.6132
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8231,
+        "killed_by_threshold": false
+      }
+    },
+    "q0031": {
+      "id": "q0031",
+      "type": "overview",
+      "question": "关于学生学籍与学业管理这块都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          2,
+          3,
+          16,
+          0.7813
+        ],
+        [
+          2,
+          1,
+          2,
+          0.775
+        ],
+        [
+          2,
+          3,
+          33,
+          0.7621
+        ],
+        [
+          31,
+          1,
+          1,
+          0.7528
+        ],
+        [
+          6,
+          3,
+          31,
+          0.75
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.7813,
+        "min_score": 0.7381,
+        "avg_score": 0.7525,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.7813,
+          0.775,
+          0.7621,
+          0.7528,
+          0.75,
+          0.7448,
+          0.7424,
+          0.7402,
+          0.7387,
+          0.7381
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.7813,
+        "killed_by_threshold": false
+      }
+    },
+    "q0032": {
+      "id": "q0032",
+      "type": "overview",
+      "question": "关于大学生创新创业实践学分认定，学校都有哪些具体规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          15,
+          5,
+          15,
+          0.8668
+        ],
+        [
+          15,
+          1,
+          1,
+          0.8639
+        ],
+        [
+          15,
+          1,
+          2,
+          0.8601
+        ],
+        [
+          15,
+          3,
+          5,
+          0.8498
+        ],
+        [
+          15,
+          6,
+          15,
+          0.8473
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8668,
+        "min_score": 0.8126,
+        "avg_score": 0.8404,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8668,
+          0.8639,
+          0.8601,
+          0.8498,
+          0.8473,
+          0.8329,
+          0.8266,
+          0.8251,
+          0.819,
+          0.8126
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8668,
+        "killed_by_threshold": false
+      }
+    },
+    "q0033": {
+      "id": "q0033",
+      "type": "overview",
+      "question": "关于学生临时困难补助这块学校都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 0.5,
+      "ndcg@5": 0.6309297535714575,
+      "retrieved_triples": [
+        [
+          41,
+          6,
+          6,
+          0.9083
+        ],
+        [
+          41,
+          1,
+          2,
+          0.9065
+        ],
+        [
+          41,
+          3,
+          3,
+          0.9013
+        ],
+        [
+          41,
+          1,
+          1,
+          0.881
+        ],
+        [
+          41,
+          6,
+          8,
+          0.8442
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9083,
+        "min_score": 0.7721,
+        "avg_score": 0.8488,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.9083,
+          0.9065,
+          0.9013,
+          0.881,
+          0.8442,
+          0.84,
+          0.8259,
+          0.8178,
+          0.7907,
+          0.7721
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 2,
+        "raw_score": 0.9065,
+        "killed_by_threshold": false
+      }
+    },
+    "q0034": {
+      "id": "q0034",
+      "type": "overview",
+      "question": "学校关于学生学业竞赛成果奖励这块都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          9,
+          1,
+          3,
+          0.8086
+        ],
+        [
+          9,
+          1,
+          4,
+          0.7608
+        ],
+        [
+          9,
+          1,
+          2,
+          0.757
+        ],
+        [
+          2,
+          5,
+          45,
+          0.7348
+        ],
+        [
+          6,
+          5,
+          51,
+          0.7336
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8086,
+        "min_score": 0.6866,
+        "avg_score": 0.7327,
+        "count_above_threshold": 8,
+        "ratio_above_threshold": 0.8,
+        "scores": [
+          0.8086,
+          0.7608,
+          0.757,
+          0.7348,
+          0.7336,
+          0.7234,
+          0.7187,
+          0.7138,
+          0.69,
+          0.6866
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8086,
+        "killed_by_threshold": false
+      }
+    },
+    "q0035": {
+      "id": "q0035",
+      "type": "overview",
+      "question": "关于汪胡桢实验班的培养和管理，学校都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 2,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [
+        [
+          26,
+          1,
+          1,
+          0.8466
+        ],
+        [
+          25,
+          5,
+          12,
+          0.7548
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8466,
+        "min_score": 0.6424,
+        "avg_score": 0.6971,
+        "count_above_threshold": 2,
+        "ratio_above_threshold": 0.2,
+        "scores": [
+          0.8466,
+          0.7548,
+          0.691,
+          0.691,
+          0.6839,
+          0.6719,
+          0.6699,
+          0.6684,
+          0.6506,
+          0.6424
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 8,
+        "raw_score": 0.6684,
+        "killed_by_threshold": true
+      }
+    },
+    "q0036": {
+      "id": "q0036",
+      "type": "overview",
+      "question": "华北水利水电大学关于学生休学、复学和保留学籍这块都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.5,
+      "retrieved_triples": [
+        [
+          7,
+          2,
+          10,
+          0.8738
+        ],
+        [
+          19,
+          2,
+          9,
+          0.7984
+        ],
+        [
+          19,
+          7,
+          23,
+          0.7895
+        ],
+        [
+          22,
+          1,
+          1,
+          0.7811
+        ],
+        [
+          2,
+          3,
+          27,
+          0.7707
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8738,
+        "min_score": 0.7483,
+        "avg_score": 0.7801,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8738,
+          0.7984,
+          0.7895,
+          0.7811,
+          0.7707,
+          0.7608,
+          0.7605,
+          0.7591,
+          0.7588,
+          0.7483
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 3,
+        "raw_score": 0.7895,
+        "killed_by_threshold": false
+      }
+    },
+    "q0037": {
+      "id": "q0037",
+      "type": "overview",
+      "question": "关于华北水利水电大学学生勤工助学岗位的劳动报酬标准都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          38,
+          6,
+          21,
+          0.8715
+        ],
+        [
+          37,
+          12,
+          23,
+          0.838
+        ],
+        [
+          38,
+          5,
+          16,
+          0.8252
+        ],
+        [
+          38,
+          6,
+          22,
+          0.8045
+        ],
+        [
+          38,
+          8,
+          24,
+          0.7814
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8715,
+        "min_score": 0.7117,
+        "avg_score": 0.7736,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.8715,
+          0.838,
+          0.8252,
+          0.8045,
+          0.7814,
+          0.743,
+          0.7318,
+          0.7167,
+          0.7127,
+          0.7117
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8715,
+        "killed_by_threshold": false
+      }
+    },
+    "q0038": {
+      "id": "q0038",
+      "type": "overview",
+      "question": "华北水利水电大学关于学生管理这块都有哪些规定？",
+      "level": "chapter",
+      "docs_count": 5,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [
+        [
+          10,
+          1,
+          1,
+          0.9295
+        ],
+        [
+          19,
+          1,
+          1,
+          0.9084
+        ],
+        [
+          10,
+          6,
+          39,
+          0.8871
+        ],
+        [
+          13,
+          8,
+          36,
+          0.8733
+        ],
+        [
+          13,
+          1,
+          1,
+          0.8655
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.9295,
+        "min_score": 0.8297,
+        "avg_score": 0.869,
+        "count_above_threshold": 10,
+        "ratio_above_threshold": 1.0,
+        "scores": [
+          0.9295,
+          0.9084,
+          0.8871,
+          0.8733,
+          0.8655,
+          0.8649,
+          0.8604,
+          0.8358,
+          0.8355,
+          0.8297
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0039": {
+      "id": "q0039",
+      "type": "multi",
+      "question": "那上面说的‘学有余力’这个标准具体是怎么衡量的，有没有挂科限制？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6362,
+        "min_score": 0.5897,
+        "avg_score": 0.6043,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6362,
+          0.6108,
+          0.6107,
+          0.6077,
+          0.6043,
+          0.5989,
+          0.5964,
+          0.5948,
+          0.5934,
+          0.5897
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0040": {
+      "id": "q0040",
+      "type": "multi",
+      "question": "那上面说的‘其它破坏活动’具体指什么？如果发生了这种情况，怎么判断它的严重程度呢？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6775,
+        "min_score": 0.4769,
+        "avg_score": 0.5141,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6775,
+          0.5528,
+          0.5231,
+          0.4912,
+          0.49,
+          0.4882,
+          0.4822,
+          0.482,
+          0.4773,
+          0.4769
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.6775,
+        "killed_by_threshold": true
+      }
+    },
+    "q0041": {
+      "id": "q0041",
+      "type": "multi",
+      "question": "那上面说的这些部门和人员，具体是怎么履行这个育人职责的呢？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6456,
+        "min_score": 0.5849,
+        "avg_score": 0.6043,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6456,
+          0.6323,
+          0.6208,
+          0.6015,
+          0.5951,
+          0.5937,
+          0.5927,
+          0.5884,
+          0.588,
+          0.5849
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0042": {
+      "id": "q0042",
+      "type": "multi",
+      "question": "老师，上面说的不支持各二级单位使用校外域名，那如果是学生社团用校内IP建网站，它受不受这条规定的限制呢？",
+      "level": "article",
+      "docs_count": 4,
+      "hit@3": 1,
+      "hit@5": 1,
+      "mrr": 1.0,
+      "ndcg@5": 1.0,
+      "retrieved_triples": [
+        [
+          18,
+          4,
+          13,
+          0.8107
+        ],
+        [
+          18,
+          4,
+          12,
+          0.7224
+        ],
+        [
+          18,
+          8,
+          33,
+          0.7015
+        ],
+        [
+          18,
+          6,
+          30,
+          0.7
+        ]
+      ],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.8107,
+        "min_score": 0.6606,
+        "avg_score": 0.6966,
+        "count_above_threshold": 4,
+        "ratio_above_threshold": 0.4,
+        "scores": [
+          0.8107,
+          0.7224,
+          0.7015,
+          0.7,
+          0.6838,
+          0.6753,
+          0.6743,
+          0.6727,
+          0.6645,
+          0.6606
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.8107,
+        "killed_by_threshold": false
+      }
+    },
+    "q0043": {
+      "id": "q0043",
+      "type": "multi",
+      "question": "那这个相近原则具体是怎么界定的呢？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6625,
+        "min_score": 0.4257,
+        "avg_score": 0.4727,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6625,
+          0.484,
+          0.4776,
+          0.4648,
+          0.4499,
+          0.4483,
+          0.4479,
+          0.4336,
+          0.4328,
+          0.4257
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0044": {
+      "id": "q0044",
+      "type": "multi",
+      "question": "那上面说的‘项目训练’具体是怎么考核的？它占多大比重呢？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6071,
+        "min_score": 0.5209,
+        "avg_score": 0.5534,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6071,
+          0.5955,
+          0.5536,
+          0.5475,
+          0.5461,
+          0.5459,
+          0.5429,
+          0.5378,
+          0.537,
+          0.5209
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": true,
+        "raw_rank": 1,
+        "raw_score": 0.6071,
+        "killed_by_threshold": true
+      }
+    },
+    "q0045": {
+      "id": "q0045",
+      "type": "multi",
+      "question": "那上面说的这个‘经学校审批同意’具体是指哪个部门审批呢？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6668,
+        "min_score": 0.6432,
+        "avg_score": 0.6544,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6668,
+          0.6667,
+          0.6667,
+          0.6522,
+          0.6519,
+          0.6519,
+          0.6519,
+          0.6478,
+          0.6453,
+          0.6432
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    },
+    "q0046": {
+      "id": "q0046",
+      "type": "multi",
+      "question": "那上面说的‘经录取学校认定’，如果它最后不予承认，我还能有什么补救办法吗？",
+      "level": "article",
+      "docs_count": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved_triples": [],
+      "raw_analysis": {
+        "raw_count": 10,
+        "max_score": 0.6641,
+        "min_score": 0.6169,
+        "avg_score": 0.6433,
+        "count_above_threshold": 0,
+        "ratio_above_threshold": 0.0,
+        "scores": [
+          0.6641,
+          0.6589,
+          0.6585,
+          0.6501,
+          0.6467,
+          0.6445,
+          0.6425,
+          0.6259,
+          0.6253,
+          0.6169
+        ]
+      },
+      "gold_filtered_analysis": {
+        "in_raw": false
+      }
+    }
+  }
+}

@@ -1,0 +1,2941 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 18:09:37"
+  },
+  "samples": {
+    "q0001": {
+      "id": "q0001",
+      "type": "single",
+      "question": "我想办休学，需要怎么申请？最多能休学几次，每次能休多长时间？",
+      "final_ans": "抱歉，我查询到的条款内容没有涵盖您关心的**申请流程、休学次数和每次休学时长**这些具体信息。这条规定主要讲的是休学期间的管理事项：\n\n- 休学期间，学校保留学籍，但不享受在校学习学生待遇\n- 因病休学的学生应离校治疗休养，医疗费按国家及当地有关规定执行\n- 学校不对学生休学期间发生的行为、事故负责\n- 休学期间户口不作变动\n\n关于您问的几个关键问题（怎么申请、最多休几次、每次休多久），目前检索到的资料里没有相应内容。建议您：\n\n1. 直接咨询所在学校的**教务处或学生工作部门**，获取本校具体的休学办理流程和年限规定；\n2. 如果您手头有学校的《学生手册》或学籍管理规定，可以查阅其中\"休学与复学\"章节。\n\n如果您能提供更多线索（比如具体学校名称，或资料中相关条款的编号），我可以继续帮您查找。",
+      "docs": [
+        [
+          6,
+          3,
+          24,
+          0.8804
+        ],
+        [
+          2,
+          3,
+          23,
+          0.8311
+        ],
+        [
+          19,
+          7,
+          21,
+          0.8055
+        ],
+        [
+          19,
+          7,
+          25,
+          0.7425
+        ],
+        [
+          19,
+          7,
+          23,
+          0.7321
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 1,
+      "latency_total": 9.216,
+      "node_durations": {
+        "caijian_node": 0.14,
+        "buquan_node": 5.788,
+        "jiansuo_node": 0.51,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.684,
+        "router_tool": 0.002,
+        "tool_node": 0.088
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答编造了参考条款原文没有的休学期间管理事项（如保留学籍、不享受待遇、离校治疗、学校不负责、户口不变动），属于添加原文未提及的信息。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "系统承认未涵盖申请流程、次数和时长，但提供了部分相关管理条款和实用建议，基本切题且有少量冗余。",
+      "relevance_valid": true
+    },
+    "q0002": {
+      "id": "q0002",
+      "type": "single",
+      "question": "我想在课余时间做勤工助学或者参加社会服务，学校允许吗？有什么具体要求？",
+      "final_ans": "根据现有资料，可以明确回答您的问题：\n\n**学校是允许的，而且持鼓励和支持态度。**\n\n根据《普通高等学校学生管理规定》第五十一条：\n> 高等学校的学生在课余时间可以参加社会服务和勤工助学活动，但**不得影响学业任务的完成**。高等学校应当对学生的社会服务和勤工助学活动给予鼓励和支持，并进行引导和管理。\n\n**具体要求如下：**\n\n1. **前提：不得影响学业**\n   参加社会服务和勤工助学必须在课余时间进行，且不得影响学业任务的完成（第五十一条）。\n\n2. **课内外活动的总体要求**\n   学生进行课外活动不得影响学校正常的教育教学秩序和生活秩序（第四十八条）。\n\n3. **遵守法律法规和各方管理制度**\n   学生参加勤工助学活动应当遵守法律、法规以及学校、用工单位的管理制度，并履行勤工助学活动的有关协议（第四十八条）。\n\n**关于勤工助学的定义**（学校勤工助学管理办法第三条）：\n> 勤工助学活动，是指学生在**学校的组织下**，利用课余时间，通过自己的劳动取得的合法报酬，用于改善学习和生活条件的社会实践活动。\n\n也就是说，勤工助学强调\"在学校组织下\"开展。\n\n**补充说明：** 资料中未提及勤工助学的具体岗位申请流程、工作时间上限、报酬标准等操作细则。如您需要了解这些具体事项，建议进一步查阅学校勤工助学管理办法的后续章节，或咨询学校学生资助管理部门。",
+      "docs": [
+        [
+          1,
+          6,
+          51,
+          0.8693
+        ],
+        [
+          38,
+          1,
+          3,
+          0.7899
+        ],
+        [
+          6,
+          4,
+          48,
+          0.7856
+        ],
+        [
+          2,
+          4,
+          42,
+          0.7849
+        ],
+        [
+          38,
+          1,
+          1,
+          0.768
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 5.673,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 3.342,
+        "jiansuo_node": 0.449,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.875,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 3,
+      "faithfulness_reason": "核心政策回答正确，但引入了参考条款未包含的第四十八条、勤工助学定义等额外信息，存在轻微越界。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答明确说明学校允许勤工助学和社会服务，并引用具体规定列出核心要求（不得影响学业、遵守制度等），直接、完整地回答了用户问题。",
+      "relevance_valid": true
+    },
+    "q0003": {
+      "id": "q0003",
+      "type": "single",
+      "question": "我要出国但还没签就业协议，户口和档案能留在学校吗？最长能保留多久？",
+      "final_ans": "根据检索资料，可以明确回答：\n\n**能留在学校。** 未签订就业协议的出国学生，户口和档案可以保留在学校。\n\n**最长保留 2 年。** 保留时间不超过 2 年（资料 1，第 4 章第 28 条 / article_id 28）。\n\n补充说明：上述规定专门针对\"出国且未签就业协议\"的情形。资料中另外提到的是退学学生（档案、户口退回家庭户籍所在地）和被开除学籍学生（档案退回家庭所在地，户口迁回原户籍地或家庭户籍所在地）的处理方式，与你的情况不同，仅供参考。",
+      "docs": [
+        [
+          17,
+          4,
+          28,
+          0.7945
+        ],
+        [
+          19,
+          8,
+          39,
+          0.7424
+        ],
+        [
+          2,
+          5,
+          54,
+          0.7259
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 12.114,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 9.932,
+        "jiansuo_node": 0.445,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.729,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "户口和档案保留在学校及不超过2年的关键信息与原文完全一致，补充的退学及开除学籍情形仅为区分说明，未编造或歪曲原文。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接明确地解答了户口档案能否留校及最长保留2年的问题，并附有针对性说明，完全切题。",
+      "relevance_valid": true
+    },
+    "q0004": {
+      "id": "q0004",
+      "type": "single",
+      "question": "参加老师的科研项目，项目结项、获奖和成果转化怎么认定学分？",
+      "final_ans": "你问的是**参与教师科研项目**的学分认定，依据规定，结项、获奖和成果转化分三种情形分别按对应表格标准认定：\n\n**一、项目结项（表7）**\n学生参与教师科研项目，项目通过相关部门验收结项，需**提交结项证书**，按表7标准认定学分。\n\n**二、项目获奖（表8）**\n学生参与教师科研项目，项目成果获**各级政府主管部门科技表彰奖励**，需**提交获奖证书**，按表8标准认定学分。\n\n**三、专利与成果转化（表9）**\n学生拥有**专利**或科技成果**实现转化**，按表9标准认定学分。\n\n**几点需要注意：**\n- 三种情形分别对应表7、表8、表9，具体学分数值需查看相应表格内容。\n- 结项和获奖均需提供证明材料（结项证书／获奖证书）。\n- 成果转化以\"拥有专利\"或\"科技成果实现转化\"为条件。\n\n如需了解表7、表8、表9中的具体学分数值，可以提供对应的表格编号，我帮你进一步查询。",
+      "docs": [
+        [
+          15,
+          5,
+          13,
+          0.9548
+        ],
+        [
+          15,
+          5,
+          9,
+          0.7484
+        ],
+        [
+          15,
+          5,
+          8,
+          0.7152
+        ],
+        [
+          15,
+          5,
+          10,
+          0.7088
+        ],
+        [
+          2,
+          3,
+          15,
+          0.7026
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 1,
+      "latency_total": 9.387,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 5.796,
+        "jiansuo_node": 0.666,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.831,
+        "router_tool": 0.003,
+        "tool_node": 0.085
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答完整复述了三种情形对应的表格、条件和证书要求，关键信息与原文完全一致，无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接针对用户问题，明确分结项、获奖和成果转化三种情形说明学分认定方式，并提示具体数值需查看对应表格，完全切题。",
+      "relevance_valid": true
+    },
+    "q0005": {
+      "id": "q0005",
+      "type": "single",
+      "question": "要是违反了学生手册里的要求，学校会按什么文件来处分学生啊？",
+      "final_ans": "根据学生手册的规定，学生如果有违反法律法规、手册规定以及学校纪律的行为，学校会给予批评教育，并视情节轻重给予以下五种纪律处分：\n\n1. **警告**\n2. **严重警告**\n3. **记过**\n4. **留校察看**\n5. **开除学籍**\n\n也就是说，处分依据的是学生手册中的相关规定（\"本规定\"）以及学校的纪律要求。如果你想知道某一具体违纪行为对应哪种处分，可以告诉我具体情形，我帮你进一步查阅相关条款。",
+      "docs": [
+        [
+          2,
+          5,
+          47,
+          0.7929
+        ],
+        [
+          6,
+          5,
+          53,
+          0.7903
+        ],
+        [
+          10,
+          1,
+          3,
+          0.7752
+        ],
+        [
+          2,
+          5,
+          50,
+          0.7661
+        ],
+        [
+          6,
+          5,
+          56,
+          0.7651
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 2,
+      "rewrite_count": 1,
+      "latency_total": 11.186,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 7.607,
+        "jiansuo_node": 0.71,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.716,
+        "router_tool": 0.002,
+        "tool_node": 0.143
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答未提及学校《华北水利水电大学学生违纪处理管理规定》（华水政[2019]163号），而是编造了五种处分等级，包含原文没有的信息，偏离了处分依据这一核心问题。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "回答列出了处分种类并指出依据学生手册规定，但未明确点出用户询问的“按什么文件”这一核心（如具体文件名或条款），略有偏差。",
+      "relevance_valid": true
+    },
+    "q0006": {
+      "id": "q0006",
+      "type": "single",
+      "question": "预科阶段的教学计划和教材是怎么制定和征订的？",
+      "final_ans": "根据检索资料，预科阶段的教学计划和教材制定、征订要求如下：\n\n**一、教学计划的制定**\n\n- **审定主体**：预科培养阶段教学计划由**教务处**根据教育部要求审定。\n\n**二、教材的制定（选定）**\n\n- **统一制定类课程**：大学语文、数学、英语、计算机、民族理论与民族政策等课程的教学计划和教学大纲，由**开课学院**根据教育部要求统一制定，使用适合预科学生的教材和教辅资料。\n- **其他课程**：其他课程的教材由**开课学院**根据相关管理要求选定后，报**学校教务处审批**。\n\n**三、教材的征订**\n\n- 教材由**学校统一征订**。\n\n**流程小结**：开课学院制定/选定教材 → 报教务处审批（其他课程）→ 学校统一征订。\n\n需要说明的是，现有资料主要对上述环节作了原则性规定，具体的征订时间、操作流程等细节资料中没有提到。",
+      "docs": [
+        [
+          7,
+          3,
+          12,
+          0.8657
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 20.417,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 17.868,
+        "jiansuo_node": 0.989,
+        "process_docs_node": 0.005,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.549,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答准确复述了教学计划审定主体、各类课程教材制定规则及学校统一征订要求，关键信息与原文完全一致，无编造或曲解。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、完整地回应了用户关于预科阶段教学计划和教材制定与征订的问题，分点说明了制定主体、审批流程和征订方式，结构清晰，无冗余。",
+      "relevance_valid": true
+    },
+    "q0007": {
+      "id": "q0007",
+      "type": "single",
+      "question": "学校对学生是怎么管理的？",
+      "final_ans": "根据检索到的资料，学校对学生管理的原则和方式主要规定如下：\n\n**管理的基本理念（第五条）**\n\n学校实施学生管理时，应当：\n- **尊重和保护学生的合法权利**；\n- **教育和引导学生承担应尽的义务与责任**；\n- **鼓励和支持学生实行自我管理、自我服务、自我教育、自我监督**。\n\n这一条明确了学生管理不是单纯的约束，而是\"管理+育人+学生自治\"相结合：一方面学校依法管理并保障学生权益，另一方面充分调动学生自身的积极性，让学生参与自我管理。\n\n**适用范围（第二条）**\n\n上述管理规定适用于普通高等学校、承担研究生教育任务的科学研究机构（即\"学校\"），管理对象为接受普通高等学历教育的研究生和本科、专科（高职）学生。\n\n---\n\n需要说明的是，以上资料仅涉及学生管理的**原则性规定**和**适用范围**。关于学校具体如何管理（如学籍管理、奖惩、日常行为管理等操作层面的细则），当前检索资料中没有提到，建议查阅该规定的后续条款或相关配套办法。",
+      "docs": [
+        [
+          6,
+          1,
+          5,
+          0.7542
+        ],
+        [
+          2,
+          1,
+          5,
+          0.7165
+        ],
+        [
+          2,
+          1,
+          2,
+          0.705
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 6.192,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 4.227,
+        "jiansuo_node": 0.431,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.527,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 4,
+      "faithfulness_reason": "核心原则与原文一致，但补充了原文未涉及的适用范围和条文编号等外部信息，表述略有延伸。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "系统回答主要阐述了学生管理的原则和理念，并明确指出未涵盖具体操作细则，基本切题但未直接回答具体管理方式。",
+      "relevance_valid": true
+    },
+    "q0008": {
+      "id": "q0008",
+      "type": "single",
+      "question": "学生有哪些行为会被教育考试机构通报给学校，甚至直接被开除学籍？",
+      "final_ans": "根据检索到的规定，**在校学生**在考试中出现以下三类情形时，教育考试机构应当**通报其所在学校**，由学校根据有关规定严肃处理，**直至开除学籍**：\n\n1. **代替考生或者由他人代替参加考试**的（即替考与代考）；\n2. **组织团伙作弊**的；\n3. **为作弊组织者提供试题信息、答案及相应设备等**参与团伙作弊行为的。\n\n也就是说，\"通报学校\"是教育考试机构的义务，而\"开除学籍\"则是由学校依据校规作出的处分，最重可以到开除学籍。\n\n此外，从学校层面的处分规定看，还有几类行为会被**直接给予开除学籍处分**，包括：组织、介绍作弊（含考前建 QQ 群、微信群）；考前窃取、篡改试卷或内容；寻找或胁迫他人替考、代替别人考试；累计两次作弊；以及其他严重作弊行为。同时，若学生存在代考替考、组织作弊、使用通讯设备作弊、出售试题答案牟利等严重作弊或扰乱考试秩序行为，学校也可以给予开除学籍处分。",
+      "docs": [
+        [
+          10,
+          3,
+          27,
+          0.8565
+        ],
+        [
+          4,
+          2,
+          11,
+          0.8505
+        ],
+        [
+          2,
+          5,
+          48,
+          0.8127
+        ],
+        [
+          6,
+          5,
+          54,
+          0.8016
+        ],
+        [
+          4,
+          2,
+          16,
+          0.7845
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 3,
+      "rewrite_count": 1,
+      "latency_total": 14.436,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 10.841,
+        "jiansuo_node": 0.429,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.859,
+        "router_tool": 0.002,
+        "tool_node": 0.298
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答额外添加了参考条款原文中未提及的多项学校处分规定（如QQ群、微信群、窃取试卷、累计两次作弊等），属于原文没有的信息。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接列举了被通报给学校甚至开除学籍的具体学生行为，完全切合用户问题。",
+      "relevance_valid": true
+    },
+    "q0009": {
+      "id": "q0009",
+      "type": "single",
+      "question": "休学复学之后，之前修过的课程成绩怎么认定？",
+      "final_ans": "根据您提供的检索资料，关于休学复学之后的成绩认定，核心依据是资料 1（block_id 31、chapter_id 4、article_id 10）：\n\n**休学学生成绩认定**\n\n> 休学的学生复学后，按照所在年级专业培养方案进行成绩认定。已修读的一致或相近课程成绩直接认定；不一致课程，按通识选修课程成绩记载。\n\n也就是说，认定规则如下：\n\n1. **认定依据**：按照学生**复学后所在年级、专业**的培养方案进行成绩认定。\n2. **一致或相近的课程**：之前已修读的、与培养方案中一致或相近的课程，成绩**直接认定**。\n3. **不一致的课程**：与培养方案不一致的课程成绩，**按通识选修课程成绩记载**。\n\n---\n\n**补充说明（资料中相关的其他规定）：**\n\n- **复学前提**：学生休学期满前应在学校规定期限内提出复学申请，经学校复查合格方可复学（资料 3，block_id 2、chapter_id 3、article_id 27）。\n- **学费**：因生病等原因休学、保留学籍、中断学业的学生，休学期满复学，已预收过的学年学费不需另行交纳（资料 4，block_id 32、chapter_id 2、article_id 8）。\n\n**需要提醒的是**：资料 2（block_id 6）讲的是**退学**后重新入学的情况，与\"休学复学\"不是同一情形，请勿混淆——退学学生重新入学的，已获得学分按学校有关规定予以认定。\n\n此外，现有资料中未列出各学校\"所在年级专业培养方案\"的具体课程对照清单，具体到某门课能否一致/相近认定，需以您所在学校教务部门依据培养方案的实际审核结果为准。如需了解更详细的办理流程，建议查阅学校关于复学的具体实施办法。",
+      "docs": [
+        [
+          31,
+          4,
+          10,
+          0.8983
+        ],
+        [
+          6,
+          3,
+          17,
+          0.8066
+        ],
+        [
+          2,
+          3,
+          27,
+          0.7443
+        ],
+        [
+          32,
+          2,
+          8,
+          0.723
+        ],
+        [
+          19,
+          7,
+          24,
+          0.7176
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 9.728,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 6.252,
+        "jiansuo_node": 0.516,
+        "process_docs_node": 0.001,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.954,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答对休学复学后成绩认定规则的引用与总结完全忠实于参考条款原文，核心信息（按复学后所在年级专业培养方案认定、一致或相近课程直接认定、不一致课程按通识选修课程记载）均保持一致，无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、清晰地阐述了休学复学后成绩认定的核心规则（按复学后年级专业培养方案认定，一致/相近课程直接认定，不一致课程按通识选修记载），并补充了相关注意事项，完全切合用户问题。",
+      "relevance_valid": true
+    },
+    "q0010": {
+      "id": "q0010",
+      "type": "single",
+      "question": "学生手册适用于哪些学校和学生？",
+      "final_ans": "根据检索到的资料，学生手册（相关管理规定）的适用范围如下：\n\n| 规定 | 适用对象 |\n|------|----------|\n| 资料 1（第1章第3条） | 我校全日制在籍在读本科学生 |\n| 资料 2（第1章第2条） | 我校接受普通高等学历教育的学生 |\n| 资料 3（第1章第2条） | 我校在读全日制普通本科学生 |\n\n**说明：**\n\n1. **学校方面**：三份资料均表述为\"**我校**\"，即本校，资料中没有提到其他学校的适用情况。\n2. **学生方面**：各规定的表述略有差异——\n   - 有的适用于\"全日制在籍在读本科学生\"；\n   - 有的适用于\"接受普通高等学历教育的学生\"（范围相对更宽，不限于本科）；\n   - 有的适用于\"在读全日制普通本科学生\"。\n\n**需要注意的是**：检索资料中未明确说明这些规定具体对应哪一所学校，也未提供各规定的完整名称（如《XX规定》），因此无法确定条款的准确出处和编号。如果您需要了解某一具体规定的准确适用范围，建议提供该规定的完整名称或所在章节，以便进一步查询。",
+      "docs": [
+        [
+          41,
+          1,
+          3,
+          0.7092
+        ],
+        [
+          10,
+          1,
+          2,
+          0.7083
+        ],
+        [
+          38,
+          1,
+          2,
+          0.7062
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 8.503,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 5.976,
+        "jiansuo_node": 0.478,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.042,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 1,
+      "faithfulness_reason": "系统回答完全未提及参考条款中明确的学校类型（普通高等学校、承担研究生教育任务的科学研究机构）和学生类型（研究生、本科、专科（高职）学生），而是引用了其他资料中的不同表述，属于严重编造和答非所问。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接针对适用范围，分别说明了学校（仅限本校）和学生（全日制本科等不同表述），并做了清晰解释，完全切题。",
+      "relevance_valid": true
+    },
+    "q0011": {
+      "id": "q0011",
+      "type": "single",
+      "question": "在大学里违反教育法规定会怎么处理？",
+      "final_ans": "根据《普通高等学校学生管理规定》，在大学里违反法律法规、本规定以及学校纪律的行为，处理方式如下：\n\n**基本原则**：学校应当给予批评教育，并可视情节轻重给予纪律处分。\n\n**纪律处分分为五档**：\n1. **警告**\n2. **严重警告**\n3. **记过**\n4. **留校察看**\n5. **开除学籍**（最严重）\n\n也就是说，具体的处理结果要根据违规行为的情节轻重来决定，从最轻的警告到最严重的开除学籍不等。\n\n如果你想了解针对某一类具体行为（如考试作弊、打架斗殴等）的处理规定，可以进一步告诉我。",
+      "docs": [
+        [
+          1,
+          8,
+          59,
+          0.8847
+        ],
+        [
+          18,
+          7,
+          33,
+          0.7249
+        ],
+        [
+          2,
+          5,
+          47,
+          0.7073
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 1,
+      "latency_total": 8.221,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 5.614,
+        "jiansuo_node": 0.545,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.969,
+        "router_tool": 0.002,
+        "tool_node": 0.084
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答引入了参考条款原文没有的《普通高等学校学生管理规定》及具体处分档次，属于编造信息，未忠实于原文仅提及的依照教育法给予处罚。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接针对大学内违规行为的处理方式，引用了具体规定并列出处分等级，完全切合问题。",
+      "relevance_valid": true
+    },
+    "q0012": {
+      "id": "q0012",
+      "type": "single",
+      "question": "考试违规被处理的时候，教育考试机构在做出处理决定前需要走什么程序？如果我对违规事实有异议能申辩吗？被停考的话能申请听证吗？",
+      "final_ans": "你的说法有几处与规定不符，我按检索到的资料逐条说明：\n\n**一、做出处理决定前的程序**\n\n不是\"评估、调查和登记\"。根据资料 1（第 23 条），教育考试机构在对考试违规的个人或单位做出处理决定前，应当：\n\n1. **复核**违规事实和相关证据；\n2. **告知**被处理人或单位做出处理决定的理由和依据。\n\n也就是说，程序核心是\"复核事实证据 + 告知理由依据\"。\n\n**二、对违规事实有异议能否申辩**\n\n可以，但不是\"申请复检或申诉\"。根据第 23 条，被处理人或单位**对所认定的违规事实认定存在异议的，应当给予其陈述和申辩的机会**——这是考试机构应当主动给予的程序权利，用词是\"陈述和申辩\"。\n\n另外，如果你是对**已经做出的处理决定**不服，那属于另一条救济途径：根据资料 2（第 25 条），可在收到处理决定之日起 **15 日内**向上一级教育考试机构提出**复核申请**；对省级教育考试机构或承办国家教育考试的机构做出的决定不服的，也可向省级教育行政部门或授权承担国家教育考试的主管部门提出复核申请。\n\n**三、被停考能否申请听证**\n\n可以，但要扣准条件。根据第 23 条：**给予考生停考处理的，经考生申请，省级教育考试机构应当举行听证**，对作弊的事实、情节等进行审查、核实。\n\n所以听证不是\"被停考期间\"自动获得，而是**需经考生本人申请**，且由**省级**教育考试机构举行，审查核实的内容是作弊的事实、情节等。\n\n**补充一点**：处理决定还应以书面形式作出。根据资料 3（第 24 条），教育考试机构应当制作考试违规处理决定书，载明姓名/单位名称、处理事实根据和法律依据、处理决定内容、救济途径以及机构名称和时间，并及时送达被处理人。\n\n（以上依据为资料 1 至 3 相关条款；复核决定的具体作出方式见资料 4 所指第 26 条，如需详述可再查。）",
+      "docs": [
+        [
+          4,
+          3,
+          23,
+          0.8783
+        ],
+        [
+          4,
+          3,
+          25,
+          0.7665
+        ],
+        [
+          4,
+          3,
+          24,
+          0.7572
+        ],
+        [
+          4,
+          3,
+          26,
+          0.7482
+        ],
+        [
+          4,
+          3,
+          19,
+          0.7003
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 11.403,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 8.39,
+        "jiansuo_node": 0.617,
+        "process_docs_node": 0.001,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.389,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 4,
+      "faithfulness_reason": "核心程序与原文一致，但补充了原文未给出的15日复核期限等额外条款信息，略有超出参考条款范围。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接且完整地解答了程序、申辩和听证三个问题，依据充分，无冗余。",
+      "relevance_valid": true
+    },
+    "q0013": {
+      "id": "q0013",
+      "type": "single",
+      "question": "我带电脑和行李进出宿舍楼，需要去值班室登记吗？",
+      "final_ans": "根据检索资料，**需要登记**。\n\n根据学生公寓管理相关规定（资料1，第27条）：**住宿学生携带电脑、行李等物品出入公寓楼，应当在值班室登记，经允许后方可出入。**\n\n所以，你带电脑和行李进出宿舍楼时，需要先到值班室登记，经值班人员允许后才能出入。\n\n另外提醒一下，如果因特殊情况晚归或夜间因生病等原因需要外出，也应当在值班室登记（资料2，第14条）。",
+      "docs": [
+        [
+          13,
+          5,
+          27,
+          0.9245
+        ],
+        [
+          13,
+          4,
+          14,
+          0.7329
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 20.524,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 17.931,
+        "jiansuo_node": 1.558,
+        "process_docs_node": 0.004,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.025,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答的核心内容与参考条款原文完全一致，准确指出需要登记并经允许后方可出入，未添加原文没有的关键信息，附加提醒虽来自其他资料但不影响对主条款的忠实性。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接依据管理规定明确回答了需要登记，并给出了具体条款和操作说明，完全切合用户问题。",
+      "relevance_valid": true
+    },
+    "q0014": {
+      "id": "q0014",
+      "type": "single",
+      "question": "立项项目实施期间，要是想换项目负责人、团队成员、指导老师或者主要研究内容，需要走什么流程才能变更啊？",
+      "final_ans": "根据检索到的资料，立项项目实施期间的变更流程规定如下：\n\n**变更原则：**在项目实施过程中，立项项目**一般不得变更**项目负责人、项目成员、项目指导教师、项目主要研究内容。确需变更的，需要走审批流程。\n\n**具体变更流程（四步）：**\n\n1. **项目负责人提出申请**\n2. **指导教师同意**\n3. **所在学院审核**\n4. **学校创新创业学院批准同意**\n\n只有经过以上四个环节全部同意后，方可进行变更。\n\n**说明：**\n- 您提到的\"申请书\"变更，资料中对应的表述为对**项目负责人、项目成员、项目指导教师、项目主要研究内容**的变更，上述流程即针对这些事项。\n- 关于变更申请所需的**具体材料、表格、办理时限**等细节，资料中没有提到，建议向所在学院或学校创新创业学院咨询。\n\n以上依据为检索资料中的相关条款（block_id: 14, chapter_id: 3, article_id: 16）。如需确认该条款所属规定的准确名称，可以进一步查询。",
+      "docs": [
+        [
+          14,
+          3,
+          16,
+          0.7016
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 21.75,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 18.836,
+        "jiansuo_node": 1.19,
+        "process_docs_node": 0.005,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.713,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "关键流程与变更条件均与原文一致，未编造或歪曲信息。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接针对用户询问的项目负责人、团队成员、指导老师及主要研究内容的变更流程，给出了明确的四步审批规定，并补充了相关说明，完全切题。",
+      "relevance_valid": true
+    },
+    "q0015": {
+      "id": "q0015",
+      "type": "single",
+      "question": "学院在国家奖学金的评审和发放方面有什么具体要求，怎么保证发给特别优秀的学生呢？",
+      "final_ans": "根据检索资料，学院在国家奖学金评审和发放方面的具体要求如下：\n\n**一、总体要求（评审与发放管理）**\n\n根据第5章第9条：各学院要切实加强管理，认真做好国家奖学金的评审和发放工作，确保国家奖学金用于奖励特别优秀的学生。\n\n**二、评审原则**\n\n根据第3章第2条：国家奖学金每学年评审一次，实行等额评审，坚持公开、公平、公正、择优的原则。\n\n根据第5章第11条：国家奖学金的评定坚持公开、公正、公平、择优的原则，实行公示制度，接受全校师生和社会的监督，杜绝弄虚作假行为。\n\n**三、名额下达**\n\n根据第4章第4条：学校学生资助管理中心根据上级规定，结合我校实际，向各学院下达国家奖学金名额。\n\n**四、如何保证发给特别优秀的学生**\n\n综合上述规定，主要通过以下机制保障：\n\n1. **择优原则**：评审坚持\"择优\"，从制度上确保奖励对象是特别优秀的学生（第3章第2条、第5章第11条）；\n2. **等额评审**：每学年评审一次，实行等额评审（第3章第2条）；\n3. **公示与监督**：实行公示制度，接受全校师生和社会的监督（第5章第11条）；\n4. **杜绝弄虚作假**：明确杜绝弄虚作假行为，保证评审真实性（第5章第11条）；\n5. **加强管理**：要求各学院切实加强管理，认真组织评审和发放工作（第5章第9条）。\n\n**说明**：检索资料中未提及国家奖学金具体的评审条件（如成绩排名、综合素质等量化标准），如需了解具体的申请条件和评定细则，资料中没有提到相关内容。",
+      "docs": [
+        [
+          39,
+          5,
+          9,
+          0.9184
+        ],
+        [
+          40,
+          5,
+          12,
+          0.8194
+        ],
+        [
+          39,
+          3,
+          2,
+          0.8096
+        ],
+        [
+          39,
+          5,
+          11,
+          0.8073
+        ],
+        [
+          39,
+          4,
+          4,
+          0.7903
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 8.969,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 6.057,
+        "jiansuo_node": 0.452,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.451,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答引用并添加了参考条款之外的具体章节条款（第3章第2条、第5章第11条、第4章第4条等），这些内容未出现在参考条款原文中，属于编造或曲解原文。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、完整地回答了用户关于学院在国家奖学金评审和发放方面的具体要求及如何保证发给特别优秀学生的问题，并明确指出了资料中未提及具体评审条件，切题且信息组织清晰。",
+      "relevance_valid": true
+    },
+    "q0016": {
+      "id": "q0016",
+      "type": "single",
+      "question": "学校会给毕业生提供就业指导和服务吗？国家鼓不鼓励我们去边远艰苦地区工作？",
+      "final_ans": "是的，两方面都有明确规定：\n\n**1. 学校提供就业指导和服务**\n高等学校应当为毕业生、结业生提供就业指导和服务。\n\n**2. 国家鼓励到边远、艰苦地区工作**\n国家鼓励高等学校毕业生到边远、艰苦地区工作。\n\n以上内容依据相关规定的第五十四条（资料标注的 article_id 为 54）。\n\n如果你想了解更具体的措施或配套政策，目前资料中没有提到，可以查阅该校学生管理规定的相关章节进一步确认。",
+      "docs": [
+        [
+          1,
+          6,
+          54,
+          0.8799
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 45.018,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 27.686,
+        "jiansuo_node": 15.741,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.579,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答完整、准确引用了参考条款原文，核心信息一致，未添加原文没有的实质性内容（提及的第五十四条标注虽非原文内容，但属于对引用来源的说明，不影响忠实性）。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、完整地回答了用户的两个问题，并引用了相关规定，没有冗余或遗漏。",
+      "relevance_valid": true
+    },
+    "q0017": {
+      "id": "q0017",
+      "type": "single",
+      "question": "我想竞选学生社团的负责人或者部门负责人，需要满足什么条件，具体的选拔流程是怎样的？",
+      "final_ans": "根据检索资料，我可以为您说明学生社团负责人和部门负责人的条件与选拔流程。\n\n## 一、学生社团负责人\n\n**候选人条件**（依据资料1，block_id 12 / chapter_id 5 / article_id 19）：\n\n1. **政治立场鲜明**\n2. **学习成绩优秀**——学习成绩综合排名须在**班级前50%以内**\n3. **组织能力突出**\n4. **特殊要求**：思想政治类社团和志愿公益类社团的主要负责人**应为中共党员**\n\n**选拔流程**（递选产生，需经过以下环节）：\n\n1. 提名推荐\n2. 公开选举\n3. 考察公示（由业务指导部门负责）\n4. 审核批准（党委学生工作部门会同校团委）\n\n**选拔主体**：学生社团负责人由**校团委（学院团委）**在校党委（学院党委）的指导下遴选产生。\n\n## 二、部门负责人\n\n**选拔方式**：各部门负责人由**学生社团在指导教师的指导下遴选**产生。\n\n---\n\n## 需要补充说明的部分\n\n资料1中关于\"部门负责人由学生社团在指导教师的指导下遴选\"这一句的正文在此处**被截断**（内容止于\"遴选\"），因此部门负责人的**具体条件**和**详细遴选流程**，现有资料中没有进一步说明。\n\n此外，资料2（block_id 12 / chapter_id 3 / article_id 8）是关于\"申请成立学生社团须具备的条件\"，属于社团成立条件，与您询问的负责人竞选条件不同，此处不适用。\n\n如果您需要了解部门负责人的具体遴选细节，建议查阅所在学校学生社团管理的完整规定，或以校团委的官方说明为准。",
+      "docs": [
+        [
+          12,
+          5,
+          19,
+          0.8289
+        ],
+        [
+          12,
+          3,
+          8,
+          0.7079
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 21.139,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 17.785,
+        "jiansuo_node": 1.095,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.246,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答准确复述了参考条款中关于学生社团负责人和部门负责人的条件与选拔流程，关键信息完全一致，且对原文截断处的说明客观合理，无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 3,
+      "relevance_reason": "系统回答详细说明了社团负责人的条件和流程，但对部门负责人仅提及选拔方式且指出资料缺失，只部分满足了问题要求。",
+      "relevance_valid": true
+    },
+    "q0018": {
+      "id": "q0018",
+      "type": "single",
+      "question": "课程成绩是怎么评定的？用的什么计分方式？多少分算及格？及格了就能拿到学分吗？",
+      "final_ans": "根据检索到的资料，课程成绩的评定、计分、及格与学分获取规定如下：\n\n## 一、成绩评定方式\n课程的成绩评定**严格按照课程教学大纲执行**。（《课程考核管理规定》第三条相关条款）\n\n## 二、计分方式\n课程考核成绩记载实行两种计分制：\n1. **百分制**\n2. **五级计分制**：优秀、良好、中等、及格、不及格\n\n## 三、及格标准\n- 实行**百分制**的，**60 分为及格的最低分数**。\n\n## 四、及格与学分获取\n**成绩在及格及以上者，获得相应课程学分。**\n\n## 五、成绩与绩点对应（补充）\n获取的课程绩点与成绩对应如下：\n\n| 百分制成绩 | 绩点 |\n|---|---|\n| ＜60 | 0 |\n| ≥60（初修） | 60分计 1.0，每超 1 分加计 0.1 |\n| ≥60（重修） | 1.0 |\n\n| 五级制成绩 | 绩点 |\n|---|---|\n| 优秀 | 4.5 |\n| 良好 | 3.5 |\n| 中等 | 2.5 |\n| 及格 | 1.5 |\n| 不及格 | 0 |\n\n此外，**补考成绩及格及以上的，课程绩点统一计为 1.0，不及格的计为 0。**\n\n---\n\n**需要说明的是**：关于学分的具体获取，资料明确\"成绩在及格及以上者，获得相应课程学分\"，且课程学分按专业人才培养方案执行。至于是否还有其他限制条件（如出勤、考核环节缺考等），**资料中没有提到**。",
+      "docs": [
+        [
+          31,
+          3,
+          6,
+          0.8552
+        ],
+        [
+          31,
+          3,
+          8,
+          0.7303
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 17.826,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 14.146,
+        "jiansuo_node": 1.233,
+        "process_docs_node": 0.005,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 2.436,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答补充了参考条款未提及的绩点对应表、补考规则等大量信息，属于编造原文没有的内容。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答完整覆盖了成绩评定方式、两种计分制、及格标准（60分）及及格后获得学分四个要点，并补充了绩点对应，直接且全面地回答了用户问题。",
+      "relevance_valid": true
+    },
+    "q0019": {
+      "id": "q0019",
+      "type": "single",
+      "question": "宿舍里的床、柜子、桌椅这些公共设施能随便挪动吗？弄坏了要赔钱吗？如果不知道是谁弄的怎么办？故意损坏会怎么处理？",
+      "final_ans": "根据《学生公寓管理规定》第31条，你的问题对应规定如下：\n\n**1. 能随便挪动吗？**\n不能。住宿学生应当自觉维护公寓舍内的水、电、暖、床架、壁橱、柜子、桌椅、窗帘等学校统一配置的公共设施，**不得私自移动位置或者改变布局**。\n\n**2. 弄坏了要赔钱吗？**\n要。造成设施损坏的，**责任人应当照价赔偿**。\n\n**3. 不知道是谁弄的怎么办？**\n**无法确定责任人的，由公寓成员平均承担损失。**\n\n**4. 故意损坏会怎么处理？**\n**恶意损坏者，除赔偿损失外，根据学校有关规定给予处分。**\n\n简而言之：公共设施不得私自挪动或改变布局；损坏需照价赔偿，找不到责任人则由全宿舍成员平摊；恶意损坏者除了赔钱，还要按校规接受处分。",
+      "docs": [
+        [
+          13,
+          6,
+          31,
+          0.8634
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 20.683,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 17.825,
+        "jiansuo_node": 1.319,
+        "process_docs_node": 0.004,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.528,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答完整、准确地引用了参考条款原文，未添加任何外部信息，关键信息（不得私自移动、照价赔偿、平均承担、给予处分）均与原文一致。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答逐一对应了用户问题的四个子问题，直接给出了明确规定和总结，完全切题。",
+      "relevance_valid": true
+    },
+    "q0020": {
+      "id": "q0020",
+      "type": "single",
+      "question": "基地班大一大二的学生什么情况下会被退出来？",
+      "final_ans": "根据学校基地班的相关规定，基地班实行动态退出机制。除执行学校本科生学籍管理规定外，大一、大二年级基地班学生凡出现以下情况之一者，应退出基地班：\n\n1. **思想政治或意识形态方面**有不良行为或倾向者；\n2. **学习态度不端正**，不适合留在\"基地班\"继续学习者；\n3. 入学第3学年开始前，**全国大学英语四级考试成绩不能达到425分**；\n4. **学年综合素质评价不合格**；\n5. 因各种原因**受警告或警告以上处分**；\n6. **身心状况不适**应在基地班继续学习；\n7. 已修读课程**原始成绩有不及格记录**；\n8. **自愿申请退出**。\n\n简单来说，主要涉及思想政治表现、学习态度、英语四级成绩、综合素质评价、纪律处分、身心状况、课程成绩以及个人意愿这几个方面。只要触及其中任意一条，大一大二的基地班学生就会被退出。",
+      "docs": [
+        [
+          34,
+          6,
+          27,
+          0.8236
+        ],
+        [
+          34,
+          4,
+          9,
+          0.8104
+        ],
+        [
+          34,
+          6,
+          28,
+          0.7883
+        ],
+        [
+          34,
+          6,
+          30,
+          0.76
+        ],
+        [
+          34,
+          6,
+          29,
+          0.7257
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 1,
+      "latency_total": 11.471,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 8.663,
+        "jiansuo_node": 0.348,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.352,
+        "router_tool": 0.004,
+        "tool_node": 0.097
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答完整、准确地复述了参考条款原文中的全部八项退出条件，关键数字（425分）、时间、条件等均与原文一致，无任何编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接且完整地列出了基地班大一大二学生会被退出的八种具体情况，完全切合用户问题。",
+      "relevance_valid": true
+    },
+    "q0021": {
+      "id": "q0021",
+      "type": "single",
+      "question": "咱们学校新出的学生出国管理办法什么时候开始实行？以前的老办法是不是就都作废了？",
+      "final_ans": "根据检索资料，回答如下：\n\n**施行时间**：新办法**自印发之日起施行**。（资料 1、资料 2、资料 5 均提到“本办法自印发之日起施行”）\n\n**旧办法废止情况**：确实是同时废止的，具体包括：\n\n1. 《华北水利水电大学学生出国管理办法》（华水政〔2014〕226 号）——**同时废止**；\n2. 《华北水利水电大学赴国（境）外交换生管理办法》（华水政〔2019〕86 号）——**同时废止**；\n3. 《华北水利水电大学学生海外交流奖学金评审办法》（华水政〔2018〕7 号）——**同时废止**。\n\n以上依据资料 1（办法附则条款）和资料 5（奖学金评审办法相关条款）。\n\n**需要说明的是**：\n- 资料 2 中出现了“华北水利水电大学学生出国（境）交流学习管理暂行办法”的表述，与资料 1 的条款文字略有出入，可能是不同章节或不同文件的表述，建议以学校正式印发的文件原文为准。\n- 资料中**没有提到**该办法的具体印发日期（即具体哪一天开始施行），只说明“自印发之日起施行”。如需确切日期，建议查阅学校正式发文。\n\n如需进一步确认具体施行日期或适用范围，可以告诉我，我帮你继续查询。",
+      "docs": [
+        [
+          17,
+          5,
+          33,
+          0.8106
+        ],
+        [
+          16,
+          6,
+          27,
+          0.7405
+        ],
+        [
+          17,
+          1,
+          1,
+          0.7188
+        ],
+        [
+          42,
+          5,
+          11,
+          0.7054
+        ],
+        [
+          42,
+          5,
+          12,
+          0.702
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 10.706,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 8.359,
+        "jiansuo_node": 0.456,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.879,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答在原文两条废止办法之外，额外列出《华北水利水电大学学生海外交流奖学金评审办法》同时废止，属于编造原文没有的信息。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "系统回答准确回答了施行时间和旧办法废止情况，但未提供具体施行日期，有少量冗余说明。",
+      "relevance_valid": true
+    },
+    "q0022": {
+      "id": "q0022",
+      "type": "single",
+      "question": "高等教育都有哪些类型、形式和学习方式啊？",
+      "final_ans": "根据检索到的资料，高等教育可以从以下几个角度来划分：\n\n**一、类型（按教育性质划分）**\n- **学历教育**\n- **非学历教育**\n\n**二、形式（按学习形式划分）**\n- **全日制教育**\n- **非全日制教育**\n\n**三、学习方式（按教学手段划分）**\n国家支持采用以下方式实施高等教育：\n- **广播**\n- **电视**\n- **函授**\n- **其他远程教育方式**\n\n以上内容依据检索资料中的相关条款（对应 block_id=1、chapter_id=2、article_id=14 的完整正文）。\n\n需要说明的是，当前资料仅涉及上述分类，若你还想了解各类高等教育的具体学制、招生对象或证书效力等细节，资料中没有提到。",
+      "docs": [
+        [
+          1,
+          2,
+          14,
+          0.7535
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 22.332,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 18.995,
+        "jiansuo_node": 1.757,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.564,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答完整准确地对应了参考条款中的类型（学历/非学历）、形式（全日制/非全日制）和学习方式（广播、电视、函授及其他远程教育），无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接按类型、形式和学习方式三个维度完整回答了用户问题，结构清晰，并说明了资料局限，完全切题。",
+      "relevance_valid": true
+    },
+    "q0023": {
+      "id": "q0023",
+      "type": "single",
+      "question": "华北水利水电大学新的大学生科技创新奖励办法什么时候开始实行？以前那个2015年的老办法是不是就作废了？",
+      "final_ans": "根据检索资料，有一处关键信息需要说明：\n\n**资料 1** 显示：\"本办法自发布之日施行，原《华北水利水电大学大学生科技创新奖励办法》（华水政〔2015〕22 号）同时废止。\"\n\n**关于您的问题：**\n\n1. **新办法何时启动**：资料中只写明\"自发布之日施行\"，但**并未提到具体的发布日期（具体年月日）**，因此无法确定具体的启动年份。资料中没有提供该办法的印发日期或发布年份。\n\n2. **2015年旧办法是否作废**：是的。根据资料 1 的规定，原《华北水利水电大学大学生科技创新奖励办法》（华水政〔2015〕22 号）**同时废止**，即已不再有效。\n\n**结论**：可以确认 2015 年的旧办法已被废止，但新办法的具体施行年份在现有资料中没有提到，需要查阅该办法的正文发布日期才能确定。建议查看该办法的发布文号（如\"华水政〔20XX〕XX号\"）以确认具体生效时间。",
+      "docs": [
+        [
+          9,
+          4,
+          11,
+          0.8748
+        ],
+        [
+          14,
+          6,
+          25,
+          0.8282
+        ],
+        [
+          8,
+          6,
+          12,
+          0.7739
+        ],
+        [
+          40,
+          6,
+          16,
+          0.7712
+        ],
+        [
+          39,
+          6,
+          13,
+          0.7672
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 9.786,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 7.662,
+        "jiansuo_node": 0.603,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.511,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答严格根据参考条款，准确说明自发布之日施行、旧办法同时废止，并如实指出未提供具体发布日期，无编造或曲解。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "回答准确说明了旧办法已废止，并诚实指出新办法具体发布日期未提供，虽未完全回答施行时间，但基于资料作出了合理回答。",
+      "relevance_valid": true
+    },
+    "q0024": {
+      "id": "q0024",
+      "type": "single",
+      "question": "成绩录入之后还能随便改吗？要是成绩确实算错了或者录错了该怎么处理？",
+      "final_ans": "根据检索资料，回答如下：\n\n**成绩录入后不能随意更改。**\n\n资料 1（第 5 章第 11 条）明确规定：\n\n1. **成绩录入后不得随意更改** —— 成绩一旦录入，不能想改就改。\n2. **确属计算或录入错误的处理方式** —— 如果成绩计算或者录入确实有误，授课教师需要**按要求办理成绩更正手续**，也就是要走规范的更正流程，而不是自行随意修改。\n\n简单来说：成绩录入后受约束、不能随便改；只有确实算错或录错时，由授课教师按规定办理更正手续才能更改。\n\n（说明：以上内容来自检索到的第 5 章第 11 条正文，资料中未提及更正手续的具体办理流程和时限，如需了解可进一步查询相关章节。）",
+      "docs": [
+        [
+          31,
+          5,
+          11,
+          0.8995
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 25.917,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 23.041,
+        "jiansuo_node": 1.415,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.447,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答完整准确地转述了参考条款关于成绩不得随意更改及有误时办理更正手续的核心内容，无编造或曲解。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接明确地解答了成绩能否随意更改以及错误时的处理方式，完全切题。",
+      "relevance_valid": true
+    },
+    "q0025": {
+      "id": "q0025",
+      "type": "single",
+      "question": "申请的时候需要交哪些材料呀？交上去的复印件和原件还会退给我吗？",
+      "final_ans": "申请时需要提交以下材料：\n\n**（一）**《华北水利水电大学推荐免试攻读硕士学位研究生申请表》**一式 3 份**；\n\n**（二）** 加盖所在学院印章的本科阶段**成绩单原件 1 份**；\n\n**（三）** 全国大学生外语等级考试**合格证书原件和复印件**（复印件 3 份）；\n\n**（四）** **学籍学历信息表**（学信网下载打印，学生处学籍管理部门盖章）；\n\n**（五）** 学生特殊学术专长**支撑材料原件和复印件**（复印件 3 份）。\n\n**关于退还问题：**\n- **复印件**：申请人提交的复印材料**均不予退还**（即各复印件都留档，不退回）；\n- **原件**：原件**审验后退回**（查验无误后归还本人）。\n\n简单说就是——**复印件一律不退，原件验完就还给你**。",
+      "docs": [
+        [
+          23,
+          6,
+          11,
+          0.8299
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 21.114,
+      "node_durations": {
+        "caijian_node": 0.005,
+        "buquan_node": 17.693,
+        "jiansuo_node": 1.053,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.249,
+        "router_tool": 0.002,
+        "tool_node": 0.101
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答完整准确地列出了五项材料及其份数、盖章等要求，并正确说明了复印件不退还、原件审验后退回，与原文完全一致。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答完整列出了申请所需材料清单，并明确说明了复印件不退还、原件审验后退回，直接且全面地回答了用户的两个问题。",
+      "relevance_valid": true
+    },
+    "q0026": {
+      "id": "q0026",
+      "type": "single",
+      "question": "学生参加体育类和文艺类竞赛获奖后，奖励分别由哪个部门负责组织实施？",
+      "final_ans": "根据规定，学生学业竞赛成果奖励分别由以下单位组织实施：\n\n- **体育类竞赛奖励**：按照学校《校级运动队管理办法》规定的标准进行奖励，由**体育教学部**负责；\n- **文艺类竞赛奖励**：按照本办法标准从专项经费中列支，由**人文艺术教育中心**负责。\n\n此外，其他类别竞赛奖励的负责部门为：\n- 工程训练综合竞赛奖励：由**工程训练中心**负责（从工程技能竞赛专项中列支）；\n- 研究生学业竞赛成果奖励：由**研究生院**负责（从研究生专项经费中列支）；\n- 其他成果奖励：由**校团委**负责（从学校大学生科技创新经费中列支）；\n- 大学生创新创业训练计划项目：执行学校《大学生创新创业训练计划项目管理办法》有关规定。",
+      "docs": [
+        [
+          9,
+          1,
+          4,
+          0.9211
+        ],
+        [
+          9,
+          1,
+          3,
+          0.7331
+        ],
+        [
+          2,
+          5,
+          45,
+          0.7048
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 25.723,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 22.053,
+        "jiansuo_node": 1.399,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.162,
+        "router_tool": 0.003,
+        "tool_node": 0.093
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答完整准确地列出了体育类由体育教学部负责、文艺类由人文艺术教育中心负责，与其他类别的部门归属也与原文一致，无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、准确地回答了体育类和文艺类竞赛奖励分别由体育教学部和人文艺术教育中心负责，完全切题。",
+      "relevance_valid": true
+    },
+    "q0027": {
+      "id": "q0027",
+      "type": "single",
+      "question": "学校宿舍的安全是怎么保障的？都装了哪些安全设施，消防演习又是怎么安排的？",
+      "final_ans": "根据检索资料，学校宿舍（学生公寓）的安全保障情况如下：\n\n**安全保障方式**\n\n学校安全保卫部门加强对学生公寓安全保卫工作的业务指导、培训、监督和检查，加强巡逻，深入排查学生公寓中存在的问题，督促责任单位及时整改。学校安全保卫部门负责监督和指导，其他单位和相关学院积极配合，落实消防主体责任，通过技术手段防止火灾发生。\n\n**安全设施**\n\n学校保障学生公寓的安全设施，设立必要的：\n- 紧急通道\n- 安全警示装置\n- 火灾预警监视系统\n- 恶性用电识别装置\n\n**消防演习安排**\n\n学校安全保卫部门负责监督和指导，其他单位和相关学院积极配合，落实消防主体责任，按期组织实施学生开展消防演习和逃生演练。\n\n---\n\n以上内容依据检索资料（block_id: 13, chapter_id: 5, article_id: 19）整理。资料中未提及演习的具体频次、时间等更详细的安排。如需了解具体要求，建议查询相关章节的完整条款。",
+      "docs": [
+        [
+          13,
+          5,
+          19,
+          0.809
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 21.589,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 18.869,
+        "jiansuo_node": 1.171,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.534,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答中所有关键信息均与参考条款原文一致，无编造、歪曲或遗漏关键信息。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答从安全保障方式、安全设施、消防演习安排三个方面完整回应了用户问题，并说明资料中未提及演习具体频次等细节，完全切题。",
+      "relevance_valid": true
+    },
+    "q0028": {
+      "id": "q0028",
+      "type": "single",
+      "question": "推免工作由哪个部门负责监督，学生申诉又该找谁处理？",
+      "final_ans": "根据检索到的资料，您的理解**不准确**，需要更正：\n\n**监督部门**：根据资料 2（第二章第4条），**校纪委（监察专员办公室）**负责推荐免试工作的监督，处理学生申诉。而不是教务处。\n\n**学生申诉处理渠道**：根据资料 1（第五章第11条），学生申诉应按以下层级进行：\n\n1. **首先**：对推免工作任何环节存在异议的，应根据具体事宜、事实、证据和依据形成书面材料，向**相关学院推免工作小组或相关部门**提出异议和申诉，学院及相关部门应依据事实及时回应和处理。\n\n2. **如继续存有异议**：也可向**学校推免工作领导小组**提出申诉，由学校推免工作领导小组依据事实给予及时回应和处理。\n\n3. 确实存在问题的，视情节追究相关单位及人员责任。\n\n**补充说明**：\n- 教务处、研究生院在推免工作中的职责是**备案**（资料3：承担推免生遴选任务的单位应将实施细则报学校教务处、研究生院备案），以及作为**推免生工作领导小组成员单位**（资料4），并非负责监督和处理申诉的部门。\n- 校纪委（监察专员办公室）既是监督部门，同时也是推免生工作领导小组成员单位之一。\n\n综上，推免工作的监督及学生申诉处理主要由**校纪委（监察专员办公室）**负责，学生申诉的具体受理则应先向**相关学院推免工作小组或相关部门**提出，进而可向**学校推免工作领导小组**申诉。",
+      "docs": [
+        [
+          23,
+          5,
+          11,
+          0.8554
+        ],
+        [
+          23,
+          2,
+          4,
+          0.793
+        ],
+        [
+          23,
+          5,
+          8,
+          0.7636
+        ],
+        [
+          23,
+          2,
+          3,
+          0.7575
+        ],
+        [
+          23,
+          5,
+          9,
+          0.7544
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 8.584,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 6.456,
+        "jiansuo_node": 0.222,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.893,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答虽然引用了参考条款，但添加了大量原文没有的申诉层级、备案职责、领导小组等具体信息，超出了参考条款原文范围。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答直接、完整地回答了监督部门和学生申诉处理部门的问题，并给出了具体依据和申诉层级。",
+      "relevance_valid": true
+    },
+    "q0029": {
+      "id": "q0029",
+      "type": "single",
+      "question": "要是考试工作人员在监考或者改卷的时候违规了，考点负责人会怎么处理他们？",
+      "final_ans": "已补全。综合两份资料，完整回答如下：\n\n## 处理主体与流程\n\n1. **现场处理（考点主考/评卷点负责人）**\n   考试工作人员在考场、考点及评卷过程中有违规行为的，**考点主考、评卷点负责人应当暂停其工作**，并报相应的教育考试机构处理。\n\n2. **后续处理（教育考试机构）**\n   由教育考试机构作出处理，或者建议其所在单位视情节轻重给予相应行政处分。\n\n## 具体违规情形及后果\n\n考试工作人员在考试管理、组织及评卷过程中，有下列行为之一的，**应当停止其参加当年及下一年度的国家教育考试工作**，并由教育考试机构或其所在单位视情节轻重给予相应行政处分：\n\n| 序号 | 违规情形 |\n|------|----------|\n| （一） | 应回避考试工作却隐瞒不报的 |\n| （二） | 擅自变更考试时间、地点或者考试安排的 |\n| （三） | 提示或暗示考生答题的 |\n| （四） | 擅自将试题、答卷或者有关内容带出考场或传递给他人 |\n| （五） | 未认真履行职责，造成所负责考场秩序混乱、作弊严重，或视频录像资料损毁、视频系统不能正常工作 |\n| （六） | 在评卷、统分中严重失职，造成明显错评、漏评或积分差错 |\n| （七） | 在评卷中擅自更改评分细则或不按评分细则评卷 |\n| （八） | 因未认真履行职责，造成所负责考场出现雷同卷 |\n| （九） | 擅自泄露评卷、统分等应予保密的情况 |\n| （十） | 其他违反监考、评卷等管理规定的行为 |\n\n---\n\n**一句话总结**：考点主考/评卷点负责人可**当场暂停其工作**并上报，由教育考试机构**停止其参加当年及下一年度国家教育考试工作**，并视情节给予**行政处分**。\n\n（说明：以上依据为检索到的资料原文，具体适用中可能还涉及其他法律法规的衔接，建议以现行有效的《国家教育考试违规处理办法》正式文本为准。）",
+      "docs": [
+        [
+          4,
+          3,
+          21,
+          0.881
+        ],
+        [
+          4,
+          3,
+          18,
+          0.7982
+        ],
+        [
+          4,
+          2,
+          12,
+          0.787
+        ],
+        [
+          4,
+          2,
+          14,
+          0.7827
+        ],
+        [
+          4,
+          3,
+          29,
+          0.7737
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 1,
+      "latency_total": 11.701,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 7.147,
+        "jiansuo_node": 0.292,
+        "process_docs_node": 0.003,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 4.159,
+        "router_tool": 0.003,
+        "tool_node": 0.088
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答虽包含参考条款原文内容，但大量补充了原条款未涉及的违规情形、处理措施及行政处分等内容，超出参考条款范围，属于添加原文没有的信息。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接、完整地说明了考点负责人对违规考试工作人员的处理方式，包括现场暂停工作并上报，以及后续教育考试机构的处理措施，完全切合问题。",
+      "relevance_valid": true
+    },
+    "q0030": {
+      "id": "q0030",
+      "type": "single",
+      "question": "毕设答辩前需要查重吗？具体是按什么办法来检测的？",
+      "final_ans": "根据检索资料，答辩前需要进行查重检测。具体如下：\n\n**1. 是否需要查重：需要。**\n根据资料1（第6章第21条）：答辩前应当按要求进行毕业设计（论文）学术不端检测。\n\n**2. 检测办法：**\n检测工作按照《全日制本科生实践成果复制比检测实施办法》执行。\n\n关于该《实施办法》中具体的检测方式、复制比标准等细则，现有资料中没有提到。",
+      "docs": [
+        [
+          27,
+          6,
+          21,
+          0.8151
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 22.663,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 20.392,
+        "jiansuo_node": 1.132,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 1.124,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 4,
+      "faithfulness_reason": "核心信息忠实于原文，但系统回答标注了原文没有的'第6章第21条'，属于添加原文未有的定位信息，构成轻微偏差。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "回答明确回答了需要查重并说明了检测办法依据的文件，但未提供具体的检测方式和标准，有少量信息缺失。",
+      "relevance_valid": true
+    },
+    "q0031": {
+      "id": "q0031",
+      "type": "overview",
+      "question": "关于学生学籍与学业管理这块都有哪些规定？",
+      "final_ans": "关于**学生学籍与学业管理**，根据《普通高等学校学生管理规定》（第三章）主要有以下规定，我按几个关键环节为你梳理：\n\n## 一、入学与注册\n- **新生入学**（第8条）：持录取通知书按期到校办理入学手续；因故不能按期入学的应请假，未请假或逾期（不可抗力等正当事由除外）视为放弃入学资格。\n- **入学资格审查**（第9条）：报到时进行初步审查，合格者注册学籍；发现材料与实际不符或违反招生规定的，取消入学资格。\n- **保留入学资格**（第10条）：可申请保留入学资格，期间不具有学籍；期满前须申请入学，审查不合格或逾期未办理者取消/视为放弃入学资格。\n- **入学复查**（第11条）：入学后3个月内复查录取资格、身份信息、身心健康、专业水平等；弄虚作假者取消学籍；身心不适宜在校学习可保留入学资格。\n- **学期注册**（第12条）：每学期须按规定办理注册；不能如期注册须履行暂缓注册；未缴费或不符合条件者不予注册。家庭经济困难学生可申请助学贷款等资助。\n\n## 二、考核与成绩\n- **课程考核**（第13条）：须参加教学计划规定的课程考核，成绩记入成绩册并归入学籍档案；考核分考试和考查，不合格课程是否重修或补考由学校规定。\n- **思想品德与体育考核**（第14条）：思想品德以个人小结、师生民主评议等形式进行；体育成绩突出过程管理。\n- **升级与学分要求**（第15条）：每学期/学年所修课程、应修学分及升级、跳级、留级、降级等要求由学校规定。\n\n## 三、辅修、转专业与转学\n- **辅修与选修**（第16条）：可申请辅修校内其他专业、跨校辅修或修读认可的开放式网络课程，成绩（学分）经审核后予以承认。\n- **创新创业学分**（第17条）：创新创业、社会实践、发表论文、获得专利等可折算为学分。\n- **成绩与学籍档案管理**（第18条）：健全成绩和档案管理制度；补考、重修成绩应予标注；严重违反考核纪律或作弊的该课程成绩无效并给予处分；退学后再次入学者已获学分经认定可予承认。\n- **转专业**（第21条）：对其他专业有兴趣和专长者可申请转专业；特殊招生形式录取的学生原则上不得转专业；休学创业或退役复学者转专业应优先考虑。\n- **转学**（第22—24条）：一般应在录取学校完成学业；因患病或特殊困难可申请转学，并规定了6种不得转学的情形（如入学未满一学期、低学历转高学历、无正当理由等）；转学须经双方学校同意并经校长办公会等研究决定，跨省转学另有程序，转学情况须公示并在3个月内报省级教育行政部门备案。\n\n## 四、休学、保留学籍与退学\n- **学习年限**（第25条）：学生可分阶段完成学业，应在规定最长学习年限（含休学和保留学籍）内完成学业；休学次数和期限由学校规定。\n- **灵活学习制度**（第26条）：对休学创业的学生可单独规定最长学习年限并简化休学批准程序。\n- **参军与联合培养**（第27条）：应征入伍者保留入学资格或学籍至退役后2年；参加跨校联合培养期间保留学籍。\n- **休学待遇**（第28条）：休学学生应办理手续离校，休学期间学校保留学籍但不享受在校学生待遇；因病休学的医疗费按国家及地方规定处理。\n- **退学情形**（第31条），学生有下列情形之一予以退学处理：\n  1. 学业成绩未达学校要求，或未在规定学习年限（含休学）内完成学业；\n  2. 休学、保留学籍期满，未在规定期限内提出复学申请或复查不合格；\n  3. 经学校指定二级甲等以上医院诊断，患病或意外伤残不能继续在校学习；\n  4. 未经批准连续两周未参加学校规定的教学活动；\n  5. 超过规定期限未注册又未履行暂缓注册手续；\n  6. 其他不能完成学业、应予退学的情形。\n\n---\n\n⚠️ 说明：以上内容主要来自**第三章**（学籍管理），其中第29、30条等部分条款因内容较长未完整展示。如需查阅**转专业具体办法、休学复学的详细程序、纪律处分**或其他章节内容，请告诉我，我可以进一步为你调取完整原文。",
+      "docs": [
+        [
+          2,
+          3,
+          16,
+          0.7743
+        ],
+        [
+          2,
+          1,
+          2,
+          0.7718
+        ],
+        [
+          2,
+          3,
+          33,
+          0.7611
+        ],
+        [
+          31,
+          1,
+          1,
+          0.7491
+        ],
+        [
+          6,
+          3,
+          31,
+          0.7426
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 2,
+      "rewrite_count": 1,
+      "latency_total": 10.833,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 4.504,
+        "jiansuo_node": 0.317,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 5.858,
+        "router_tool": 0.003,
+        "tool_node": 0.142
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "relevance": 5,
+      "relevance_reason": "系统回答全面覆盖了用户所问的学生学籍与学业管理规定，分环节详细列举了入学注册、考核成绩、转专业转学、休学退学等核心规定，直接且完整地回答了问题。",
+      "relevance_valid": true
+    },
+    "q0032": {
+      "id": "q0032",
+      "type": "overview",
+      "question": "关于大学生创新创业实践学分认定，学校都有哪些具体规定？",
+      "final_ans": "以下是学校关于**大学生创新创业实践学分认定**的具体规定（主要依据《创新创业实践学分认定与管理办法》相关条款）：\n\n## 一、管理体制与基本要求\n\n- **第五条**：实行**校、院两级管理**。学校创新创业学院统筹全校学分认定管理工作；各学院是具体实施单位，负责本学院学生的申报、审核、认定和成绩录入。\n- **第六条**：学生入校后在弹性学制学习年限期间参与创新创业实践教学活动，修读创新创业实践学分。\n- **第七条**：学生须修满培养方案规定的创新创业实践学分。\n- **第八条**：遇特殊情况或对认定有争议的，由创新创业学院组织专家审核认定。\n- **第九条**：弄虚作假者，取消已获学分，并按学生管理规定严肃处理。\n\n## 二、各类实践活动的学分认定标准\n\n**第十二条 创新创业训练计划项目**\n- 参加国家、省、市、校级大学生创新创业训练计划项目及省级扶持项目，完成计划内容并通过考核验收的，按表1标准认定学分。\n- 参加校级项目申报但未立项的，可申请认定 **0.1学分**（限项目前3名学生）。\n\n**第十三条 竞赛获奖**\n- 竞赛级别分为国家级、省级、市厅级、校级、院级。\n- 奖励等次分为一、二、三等奖、优秀奖；设特等奖的，特等奖、一等奖、二等奖分别对应一、二、三等奖。\n- 各级竞赛的认定范围有明确规定（如国家级原则上须为当年度全国普通高校大学生竞赛榜单项目）。\n- 参与未获奖的优秀奖记 **0.1学分**。\n- 注意：无官方直属机构、下属部门及国家、省级学会主办的不予认定；同一项目同一竞赛多次获奖只计一次，按最高奖项计分；国际类竞赛参照国内组织单位认定。\n\n**第十四条 讲座、培训及学术报告**\n- 参加政府部门、教育部门、学校主办的各级各类创新创业、职业资格、职业生涯规划等培训并取得结业证书：每次 **0.5学分**。\n- 参加创新创业讲座或学术报告，学院有记录并提交每次不少于1000字的学习报告：每次 **0.1学分**。\n- 到创新创业基地、孵化器、众创空间、实习基地、就业市场等考察学习，学院有记录并提交每次不少于1000字学习报告：每次 **0.1学分**。\n\n**第十五条 学术论文、著作**：以学校为作者单位公开发表，按表3、表4标准认定（著作按字数分档）。\n\n**第十六条 艺术类作品展览**：艺术类专业学生的艺术作品、设计作品参展，按国家级、省部级、市厅级、校级、院级分级认定，并明确了各级认定条件；纯商业机构组织的展览不予认定。\n\n**第十七条 专利、软件著作权**：获得授权按表6标准认定学分。\n\n**第十八条 参与教师科研项目**：项目结项、获奖和成果转化，按表7、表8、表9标准认定。\n\n**第十九条 创办企业或入驻孵化器/科技园**\n- 学生为企业创办人（法人）或主要合伙人（股东），企业成功运营并提交营业执照等材料方可认定。\n- 主持或参与的创新创业项目入驻校内外实践基地或孵化园，且成功运营、考核达标方可认定。\n- 按表10标准认定。\n\n**第二十条**：其他可认定项目，相关学院可向创新创业学院申请，经审批同意后予以认定。\n\n## 三、学分的使用与效力\n\n- **第二十一条**：创新创业实践学分计入学生本人成绩档案。\n- **第二十二条**：在免试推荐研究生、评优评先时，参与的创新创业项目、竞赛等可作为参评重要依据，同等条件下优先考虑。\n- **第二十三条**：获得的学分超出部分，可按相近原则自愿申请**置换一次**专业培养方案规定的通识选修课和集中实践环节学分，具体按教务处相关规定办理。\n\n---\n\n需要我进一步提供某个条款的**具体学分表格数值**（如表1至表10的详细标准），或查询某类具体竞赛/项目的认定细则吗？",
+      "docs": [
+        [
+          15,
+          1,
+          2,
+          0.8696
+        ],
+        [
+          15,
+          1,
+          1,
+          0.8645
+        ],
+        [
+          15,
+          5,
+          15,
+          0.8604
+        ],
+        [
+          15,
+          6,
+          15,
+          0.852
+        ],
+        [
+          15,
+          3,
+          5,
+          0.8497
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 3,
+      "rewrite_count": 1,
+      "latency_total": 11.773,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 5.488,
+        "jiansuo_node": 0.452,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 5.627,
+        "router_tool": 0.003,
+        "tool_node": 0.196
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接、完整地列出了学校关于大学生创新创业实践学分认定的具体规定，涵盖管理体制、各实践活动的学分标准及学分使用效力，完全切合问题。",
+      "relevance_valid": true
+    },
+    "q0034": {
+      "id": "q0034",
+      "type": "overview",
+      "question": "学校关于学生学业竞赛成果奖励这块都有哪些规定？",
+      "final_ans": "I have the clause-level details. Here's a summary of the school's regulations on student academic competition achievement awards:\n\n## 学生学业竞赛成果奖励规定\n\n### 一、成果认定范围（共四类）\n\n1. **创新创业竞赛**\n   包括：科技竞赛、学科竞赛、技能竞赛、创业竞赛、文艺竞赛、体育竞赛。\n\n2. **论文论著**\n   包括：学术论文、文学作品、画作、著作、译著。\n   - 学术论文：不少于 3000 字\n   - 文学作品（诗歌除外）：不少于 1500 字\n   - 著作：个人贡献不少于 5 万字\n   - **限制条件**：不含会议论文、增刊论文；不含学生为第一作者、校内或校外人员为通讯作者的论文\n   - 论文要求：第一完成单位为学校，第一作者为学生\n\n3. **专利、软件著作权**\n   - 须系职务行为并取得授权\n   - 登记单位为学校\n   - 学生为第一完成人\n\n4. **大学生创新创业训练计划项目**\n\n### 二、组织实施单位及经费来源\n\n| 竞赛/成果类别 | 负责单位 | 经费来源/依据 |\n|---|---|---|\n| 体育类竞赛 | 体育教学部 | 按《校级运动队管理办法》标准 |\n| 文艺类竞赛 | 人文艺术教育中心 | 从专项经费中列支 |\n| 工程训练综合竞赛 | 工程训练中心 | 从工程技能竞赛专项中列支 |\n| 研究生学业竞赛成果 | 研究生院 | 从研究生专项经费中列支 |\n| 大学生创新创业训练计划项目 | — | 执行《大学生创新创业训练计划项目管理办法》 |\n| 其他成果奖励 | 校团委 | 从学校大学生科技创新经费中列支 |\n\n---\n\n需要说明的是，以上内容来自检索到的条款，**具体的奖励等级、奖金标准、申报流程**等条款并未包含在这次检索结果中。如果你需要了解奖金金额、申请条件或评审程序等更细节的规定，建议我进一步检索该校文件的其他章节，或者你可以指出具体想了解的部分（如\"论文奖励多少钱\"\"怎么申报\"），我再帮你查。",
+      "docs": [
+        [
+          9,
+          1,
+          3,
+          0.8084
+        ],
+        [
+          9,
+          1,
+          4,
+          0.7612
+        ],
+        [
+          9,
+          1,
+          2,
+          0.7513
+        ],
+        [
+          2,
+          5,
+          45,
+          0.7292
+        ],
+        [
+          6,
+          5,
+          51,
+          0.7279
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 2,
+      "rewrite_count": 1,
+      "latency_total": 6.243,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 2.59,
+        "jiansuo_node": 0.45,
+        "process_docs_node": 0.001,
+        "is_have_node": 0.001,
+        "press_sc_node": 0.001,
+        "sc_node": 3.046,
+        "router_tool": 0.002,
+        "tool_node": 0.149
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "relevance": 4,
+      "relevance_reason": "回答详细列出了成果认定范围和组织实施单位等核心规定，基本切题，但未涵盖奖励等级、奖金标准、申报流程等关键内容，且有部分冗余。",
+      "relevance_valid": true
+    },
+    "q0037": {
+      "id": "q0037",
+      "type": "overview",
+      "question": "关于华北水利水电大学学生勤工助学岗位的劳动报酬标准都有哪些规定？",
+      "final_ans": "根据检索到的《华北水利水电大学全日制普通本科学生勤工助学管理办法》相关规定，勤工助学岗位的劳动报酬标准主要有以下两种：\n\n**一、固定岗位（按月计酬）**\n\n根据该办法（chapter_id 6、article_id 21）：\n- 学生勤工助学**固定岗位按月计酬**，根据岗位性质及上岗时间，给予**每月每岗 240 元—480 元**不等的酬金。\n- 发放流程：用工单位于每月 **1—5 日**填写《华北水利水电大学学生勤工助学考核表》，经学校学生资助管理中心审核、汇总后报学校财务处发放工资；逾期未报的，转下月处理。\n\n**二、临时岗位（按小时计酬）**\n\n根据该办法（chapter_id 6、article_id 22）：\n- 学生勤工助学**临时岗位按小时计酬**，劳动报酬标准原则上**不低于每小时 12 元人民币**。\n\n---\n\n**补充说明：** 关于签订协议等权利义务事项，另有资料提到学生与用工单位须签订《华北水利水电大学校内勤工助学协议书》及《勤工助学工作个人责任书》（chapter_id 5、article_id 16），但该内容属于协议约定，不涉及劳动报酬标准。\n\n以上即为检索资料中涉及勤工助学岗位劳动报酬标准的全部规定。如需了解其他方面（如岗位设置、考核管理等），可进一步查阅办法的相关章节。",
+      "docs": [
+        [
+          38,
+          6,
+          21,
+          0.8714
+        ],
+        [
+          37,
+          12,
+          23,
+          0.838
+        ],
+        [
+          38,
+          5,
+          16,
+          0.8252
+        ],
+        [
+          38,
+          6,
+          22,
+          0.8044
+        ],
+        [
+          38,
+          8,
+          24,
+          0.7815
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 7.265,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 4.69,
+        "jiansuo_node": 0.32,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.245,
+        "router_tool": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "relevance": 5,
+      "relevance_reason": "回答直接、完整地列出了勤工助学固定岗位和临时岗位的劳动报酬标准，并附有依据，完全切合用户问题。",
+      "relevance_valid": true
+    },
+    "q0039": {
+      "id": "q0039",
+      "type": "multi",
+      "question": "那上面说的‘学有余力’这个标准具体是怎么衡量的，有没有挂科限制？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 23.561,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 22.334,
+        "jiansuo_node": 1.215,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.003
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "faithfulness": 3,
+      "faithfulness_reason": "系统回答未编造信息，但未提供参考条款中任何相关内容，遗漏了原文所有关键信息。",
+      "faithfulness_valid": true,
+      "relevance": 3,
+      "relevance_reason": "系统回答表示知识库无相关内容，未直接回答用户关于'学有余力'衡量标准和挂科限制的问题，但诚实反映信息缺失，属于部分切题。",
+      "relevance_valid": true
+    },
+    "q0040": {
+      "id": "q0040",
+      "type": "multi",
+      "question": "那上面说的‘其它破坏活动’具体指什么？如果发生了这种情况，怎么判断它的严重程度呢？",
+      "final_ans": "您问的是\"其它破坏活动\"具体指什么、以及如何判断其严重程度。我需要先说明一点：**您提到的\"定义\"其实并不准确**——根据第15条规定，\"其它破坏活动\"是与\"破坏公共财物、私人财物\"**并列**的一类情形，而**不是**对前者的定义。\n\n我已查询到该条款的完整内容，下面结合条文来分析。\n\n## 一、\"其它破坏活动\"具体指什么？\n\n从条文看，第15条原文表述为：\n\n> \"破坏公共财物、私人财物，**或有其它破坏活动的**，视情节轻重，分别给予以下处分\"\n\n但该条后续列出的第（一）至（五）项，**全部是针对\"破坏财物\"的具体情形**（损坏公物、涂写张贴、损坏校园设施、损坏图书馆图书、蓄意损坏他人财物）。\n\n因此可以说：\n- \"其它破坏活动\"在条文中**并未单独给出定义或列举**，是一个**兜底表述**；\n- 从条文整体逻辑看，它应是**与破坏财物性质类似的破坏行为**，同样适用\"视情节轻重\"来量罚；\n- **具体指向哪些行为，资料中没有明确说明**，无法凭现有条款列举。\n\n## 二、如何判断严重程度？\n\n条文中体现出的判断标准（可归纳）主要有以下几点：\n\n**1. 是否\"故意\"**\n- 一般损坏（如第（一）项\"损坏公物\"）→ 批评教育；\n- **故意**损坏（如第（三）项校园设施、第（四）项图书馆图书）→ 起档即为严重警告、记过，明显更重。\n\n**2. 财物价值**\n- 以**人民币1000元**为重要分界线：\n  - 未超过1000元：警告以上（如图书类第（四）项）；\n  - **超过1000元**：**记过以上**（设施、图书均有此规定）。\n\n**3. 情节与后果影响**\n- 第（一）项明确区分：\"情节较重，造成一定影响和危害的\"→ 警告以上；\n- 各条普遍有\"视情节轻重\"的表述，说明情节是核心裁量因素。\n\n**4. 是否需要进行经济赔偿**\n- 几乎所有情形都要求\"**除赔偿损失外**\"再给予处分。\n\n## 小结\n\n| 判断维度 | 说明 |\n|---|---|\n| 主观状态 | 是否故意（故意明显加重） |\n| 财物价值 | 是否超过1000元（超过则记过以上） |\n| 情节后果 | 是否造成影响和危害（视情节轻重） |\n| 经济责任 | 均需赔偿损失 |\n\n**需要提醒：** 关于\"其它破坏活动\"的**具体范围和定义**，现有资料中确实没有明确规定，我的回答中相关部分是基于条文结构的分析，不代表官方界定。如您需要准确认定某一具体行为，建议进一步查阅该规定的完整文本或咨询学生管理部门。",
+      "docs": [
+        [
+          10,
+          3,
+          15,
+          0.8759
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 24.12,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 18.853,
+        "jiansuo_node": 1.318,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 3.934,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 5,
+      "faithfulness_reason": "回答准确引述条文，正确指出'其它破坏活动'无单独定义、属兜底表述，归纳的严重程度判断标准（故意、1000元、情节后果、赔偿）均与原文一致，无编造或歪曲。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接针对‘其它破坏活动’的具体含义和严重程度判断标准进行了详细分析，并明确说明条文中未单独定义，完全切合用户的两个问题。",
+      "relevance_valid": true
+    },
+    "q0041": {
+      "id": "q0041",
+      "type": "multi",
+      "question": "那上面说的这些部门和人员，具体是怎么履行这个育人职责的呢？",
+      "final_ans": "根据检索到的资料，关于\"育人职责\"的具体内容，规定中是这样表述的：\n\n## 一、育人职责的规定原文\n\n根据**第一条（立法目的）**和**第四条**，勤工助学活动被定位为\"对学生进行思想教育的重要阵地\"，是落实学校\"三全育人\"、立德树人根本任务的重要举措。第四条明确：\n\n> \"学校学生勤工助学管理部门、各设岗单位及工作人员**都负有育人职责**。\"\n\n## 二、关于\"具体怎么履行\"的说明\n\n需要如实向你说明：**检索资料中并没有就\"育人职责\"列出具体的履行方式或细化条款。** 规定只是在第四条概括性地宣示了上述部门和人员\"都负有育人职责\"，但并未进一步展开说明他们各自应如何具体落实。\n\n不过，从资料中相关条款可以间接看出履行育人职责的载体，包括：\n\n- **学校学生资助管理中心（第七条）**：通过制定管理制度、组织协调审定岗位、监督审核用工单位岗位申报招聘录用考评是否合法合规、审核报酬标准与发放等工作，在管理全过程中落实育人。\n- **用工单位（第八条）**：指派思想素质好、业务能力强的同志，负责本单位勤工助学岗位的**招聘、录用、培训、教育、管理、考核及酬金申报**工作——其中的\"**培训、教育、管理**\"环节，即是育人的具体承载方式。\n\n以上内容依据《勤工助学管理办法》第一条、第四条、第七条、第八条整理。资料中未对\"育人职责\"的具体履行方式作更细化的规定，如需了解是否有其他配套细则，建议查阅该办法之外的专门文件。",
+      "docs": [
+        [
+          38,
+          1,
+          4,
+          0.8531
+        ],
+        [
+          38,
+          2,
+          7,
+          0.8474
+        ],
+        [
+          38,
+          2,
+          8,
+          0.8317
+        ],
+        [
+          38,
+          2,
+          6,
+          0.8004
+        ],
+        [
+          38,
+          1,
+          1,
+          0.7944
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 1,
+      "latency_total": 13.96,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 11.157,
+        "jiansuo_node": 0.3,
+        "process_docs_node": 0.002,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.49,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 4,
+      "faithfulness_reason": "回答忠实指明原文仅概括宣示育人职责、未细化履行方式，并引用第七条和第八条作为间接载体，虽第七条、第八条的具体内容未在参考原文中给出，但整体未歪曲或编造关键信息。",
+      "faithfulness_valid": true,
+      "relevance": 4,
+      "relevance_reason": "回答基本切题，直接回应了育人职责的履行方式问题，并如实说明资料未详细列出，仅从相关条款间接推断出部分具体载体，有少量冗余。",
+      "relevance_valid": true
+    },
+    "q0042": {
+      "id": "q0042",
+      "type": "multi",
+      "question": "老师，上面说的不支持各二级单位使用校外域名，那如果是学生社团用校内IP建网站，它受不受这条规定的限制呢？",
+      "final_ans": "根据这部分资料，可以这样理解：\n\n**这条规定本身是针对\"各二级单位\"的，学生社团并不在字面上被点名。** 但结合校园网的通用管理逻辑，学生社团通常作为学校内部的组织，其网站仍属于校园网资源的使用，实际办理时一般也是按校内单位/组织来对待，需要走学校二级域名的申请流程。\n\n另外，资料中还有一条更宽泛的约束值得注意：\n\n> 任何单位或个人不得利用校园网……将校园网资源（包括但不限于科研教学设备专用地址、域名、邮箱等）用于商业目的。\n\n也就是说，**无论是不是二级单位**，\"单位或个人\"在使用校园网域名等资源时都不得用于商业目的——这一条对学生社团同样适用。\n\n**小结：**\n- 严格按字面，\"不支持二级单位使用校外域名\"这条没有直接写\"学生社团\"；\n- 但学生社团建站使用校内 IP，通常仍被纳入学校二级域名管理，实践中同样不能绑定校外域名；\n- 且不得将校园网域名资源用于商业目的。\n\n不过，检索到的资料中**没有专门针对学生社团的规定条款**，\"学生社团是否等同于二级单位\"这一点在文中没有明确答案。建议就社团建站的域名申请，直接向学校网络信息管理部门确认，以他们的正式答复为准。",
+      "docs": [
+        [
+          18,
+          4,
+          13,
+          0.7328
+        ],
+        [
+          18,
+          6,
+          30,
+          0.7234
+        ],
+        [
+          18,
+          8,
+          33,
+          0.7175
+        ],
+        [
+          13,
+          6,
+          34,
+          0.7085
+        ],
+        [
+          6,
+          4,
+          50,
+          0.7012
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": true,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 24.04,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 19.343,
+        "jiansuo_node": 1.495,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 3.091,
+        "router_tool": 0.003,
+        "tool_node": 0.095
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool",
+        "tool_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 2,
+      "faithfulness_reason": "系统回答引入了原文中没有的校园网商业目的条款，并据此对学生社团适用范围作出推断，包含原文未有的信息。",
+      "faithfulness_valid": true,
+      "relevance": 5,
+      "relevance_reason": "回答直接回应了学生社团是否受该规定限制的问题，区分了字面规定与实践管理逻辑，并给出了明确的结论和适用条件。",
+      "relevance_valid": true
+    },
+    "q0043": {
+      "id": "q0043",
+      "type": "multi",
+      "question": "那这个相近原则具体是怎么界定的呢？",
+      "final_ans": "根据《XX规定》第10条（chapter_id 4, article_id 10）的规定：\n\n- 研究生考试的 **4 门科目**，按照相近原则**仅认定学校 1 门课程成绩**，不多课程认定。\n\n所以，考研成绩用来认定重修课程时，**最多只能认定 1 门课**的成绩（即 4 门考研科目合并认定为学校 1 门课程）。\n\n补充说明：至于\"相近原则\"具体如何界定，**检索资料中没有明确说明**，建议咨询教务处或所在学院教务老师获取具体认定标准。",
+      "docs": [
+        [
+          24,
+          4,
+          10,
+          0.8702
+        ],
+        [
+          24,
+          4,
+          9,
+          0.71
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 1,
+      "rewrite_count": 3,
+      "latency_total": 22.741,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 19.95,
+        "jiansuo_node": 1.425,
+        "process_docs_node": 0.008,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.35,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": true,
+      "faithfulness": 5,
+      "faithfulness_reason": "系统回答准确引用了原文中4门考研科目按相近原则仅认定1门课程成绩的关键信息，且对相近原则具体界定未作编造，明确表示资料中没有说明，完全忠实于原文。",
+      "faithfulness_valid": true,
+      "relevance": 3,
+      "relevance_reason": "回答确认了相近原则的应用结果（仅认定1门），但明确指出检索资料未说明具体界定标准，只部分回答了问题。",
+      "relevance_valid": true
+    },
+    "q0044": {
+      "id": "q0044",
+      "type": "multi",
+      "question": "那上面说的‘项目训练’具体是怎么考核的？它占多大比重呢？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 24.848,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 23.218,
+        "jiansuo_node": 1.615,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.004
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "faithfulness": 3,
+      "faithfulness_reason": "系统回答未编造信息，但未提供原文中关于项目训练考核的具体信息，属于遗漏关键信息。",
+      "faithfulness_valid": true,
+      "relevance": 1,
+      "relevance_reason": "回答未提供任何关于‘项目训练’考核方式和比重的信息，而是直接表示无法查询，属于完全答非所问。",
+      "relevance_valid": true
+    },
+    "q0045": {
+      "id": "q0045",
+      "type": "multi",
+      "question": "那上面说的这个‘经学校审批同意’具体是指哪个部门审批呢？",
+      "final_ans": "根据已有的检索资料，**资料中没有提到**关于学生具体年级及班级（班级/年级）的信息。\n\n现有资料仅涉及本办法的**适用对象范围**，例如：\n\n- 资料1：我校全日制在籍在读本科学生\n- 资料2：我校在读全日制普通本科学生\n- 资料3：学校全日制在读研究生和本科生\n- 资料4：学校在籍在校的全日制普通本科学生\n- 资料5：学校全日制本科生\n\n以上条款均只界定了\"学生\"的**在读性质和学历层次**（全日制、在籍在读、本科/研究生），**并未提及具体的年级或班级**。\n\n如果您需要了解本办法是否针对特定年级或班级有特殊规定，建议提供更多相关条款，或进一步查询该办法的完整章节内容。",
+      "docs": [
+        [
+          41,
+          1,
+          3,
+          0.7855
+        ],
+        [
+          38,
+          1,
+          2,
+          0.7836
+        ],
+        [
+          42,
+          1,
+          2,
+          0.7797
+        ],
+        [
+          35,
+          1,
+          2,
+          0.7693
+        ],
+        [
+          15,
+          1,
+          3,
+          0.7682
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 22.221,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 19.722,
+        "jiansuo_node": 0.959,
+        "process_docs_node": 0.009,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 1.522,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 1,
+      "faithfulness_reason": "系统回答完全未回答审批部门问题，反而讨论年级班级等无关内容，属于答非所问。",
+      "faithfulness_valid": true,
+      "relevance": 1,
+      "relevance_reason": "回答完全未涉及审批部门问题，而是讨论学生年级与班级信息，答非所问。",
+      "relevance_valid": true
+    },
+    "q0046": {
+      "id": "q0046",
+      "type": "multi",
+      "question": "那上面说的‘经录取学校认定’，如果它最后不予承认，我还能有什么补救办法吗？",
+      "final_ans": "根据检索到的资料（block_id: 6, chapter_id: 3, article_id: 17），回答如下：\n\n## 一、退学后重新入学，学分能算数吗？\n\n**能算，但需按学校规定认定。**\n\n规定原文：\n\n> 学生因退学情况中止学业，其在校学习期间所修课程及已获得学分，计入成绩册；学生重新参加入学考试、符合录取条件、再次入学的，已获得学分按学校有关规定予以认定。\n\n也就是说：\n- 退学前修过的课程和已获得的学分，会**计入成绩册**保留下来；\n- 重新考上大学后，这些已获学分**按录取学校的有关规定予以认定**。\n\n## 二、如果录取学校最终不予承认，有什么补救办法？\n\n**资料中没有提到。**\n\n现有检索资料只说明了\"已获得学分按学校有关规定予以认定\"这一原则，**并未涉及**：\n\n- 认定不予通过时的申诉、复核渠道；\n- 学分认定的具体标准、流程或时限；\n- 任何形式的救济或补救途径。\n\n因此关于\"不予承认后如何补救\"，无法依据现有资料作答。\n\n---\n\n📌 **建议**：由于学分认定的最终决定权在录取学校，你可以：\n1. 直接咨询录取学校的**教务部门**，了解该校学分认定的具体规定与申诉流程；\n2. 查阅该校的**学籍管理规定**或**学分认定办法**，看是否有复核、申诉等安排。\n\n以上为资料外的常规建议，具体以学校官方答复为准。",
+      "docs": [
+        [
+          6,
+          3,
+          17,
+          0.7971
+        ]
+      ],
+      "is_not_have": 0,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 28.367,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 24.469,
+        "jiansuo_node": 1.336,
+        "process_docs_node": 0.008,
+        "is_have_node": 0.002,
+        "press_sc_node": 0.001,
+        "sc_node": 2.547,
+        "router_tool": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node",
+        "press_sc_node",
+        "sc_node",
+        "router_tool"
+      ],
+      "citation_found": false,
+      "faithfulness": 4,
+      "faithfulness_reason": "回答正确识别了原文对补救办法没有规定并明确说明，但引用原文时存在轻微不精确（如将'应当予以记录'写为'计入成绩册'），未造成实质错误。",
+      "faithfulness_valid": true,
+      "relevance": 3,
+      "relevance_reason": "回答确认资料未涵盖补救办法并提供了额外建议，但未直接给出补救方案，仅部分切题。",
+      "relevance_valid": true
+    },
+    "q0047": {
+      "id": "q0047",
+      "type": "ookb",
+      "question": "为什么我跑这段Python代码总是报IndentationError啊，检查半天没看出来？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 22.047,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 20.617,
+        "jiansuo_node": 1.417,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0048": {
+      "id": "q0048",
+      "type": "ookb",
+      "question": "最近那个很火的男团选秀节目最后谁出道了呀？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 18.117,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 17.309,
+        "jiansuo_node": 0.796,
+        "process_docs_node": 0.008,
+        "is_have_node": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0049": {
+      "id": "q0049",
+      "type": "ookb",
+      "question": "明天周末去市区玩的话，会不会下暴雨啊，需要带伞吗？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 17.507,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 16.09,
+        "jiansuo_node": 1.406,
+        "process_docs_node": 0.007,
+        "is_have_node": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0050": {
+      "id": "q0050",
+      "type": "ookb",
+      "question": "英雄联盟新赛季的装备改动到底怎么算伤害的，看半天没看懂？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 16.607,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 15.582,
+        "jiansuo_node": 1.014,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0051": {
+      "id": "q0051",
+      "type": "ookb",
+      "question": "从学校东门坐几路公交车能直达市中心那个新开的漫展啊？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 22.525,
+      "node_durations": {
+        "caijian_node": 0.004,
+        "buquan_node": 21.147,
+        "jiansuo_node": 1.365,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.002
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0052": {
+      "id": "q0052",
+      "type": "ookb",
+      "question": "学校后街那家新开的烤肉店人均大概多少钱，味道怎么样？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 16.661,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 15.597,
+        "jiansuo_node": 1.053,
+        "process_docs_node": 0.006,
+        "is_have_node": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0053": {
+      "id": "q0053",
+      "type": "ookb",
+      "question": "《庆余年2》大结局范闲最后到底有没有恢复记忆啊？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 27.678,
+      "node_durations": {
+        "caijian_node": 0.002,
+        "buquan_node": 26.388,
+        "jiansuo_node": 1.28,
+        "process_docs_node": 0.005,
+        "is_have_node": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    },
+    "q0054": {
+      "id": "q0054",
+      "type": "ookb",
+      "question": "新出的那款轻薄本打原神能开最高画质吗，散热压得住不？",
+      "final_ans": "抱歉，我的知识库里面查询不到相应的内容",
+      "docs": [],
+      "is_not_have": 1,
+      "tool_used": false,
+      "tool_msg_count": 0,
+      "rewrite_count": 3,
+      "latency_total": 27.86,
+      "node_durations": {
+        "caijian_node": 0.003,
+        "buquan_node": 26.34,
+        "jiansuo_node": 1.511,
+        "process_docs_node": 0.005,
+        "is_have_node": 0.001
+      },
+      "node_sequence": [
+        "caijian_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "buquan_node",
+        "jiansuo_node",
+        "process_docs_node",
+        "is_have_node"
+      ],
+      "citation_found": false,
+      "expected_refusal": true,
+      "refused_rule": true,
+      "refused_judge": true,
+      "refusal_correct": true,
+      "hallucination_risk": false
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 17:51:06"
+  },
+  "samples": {
+    "rw-b001": {
+      "id": "rw-b001",
+      "followup": "那补考过了以后呢？",
+      "reference_rewrite": "必修课挂科后补考通过还能评奖学金吗？",
+      "model_rewrite": "挂科了还能不能评奖学金？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 2,
+      "keeps_constraints": false,
+      "judge_reason": "模型改写完全忽略了'补考过了以后'这一关键追问点，仅复述了历史第一轮的原始问题，指代消解错误，检索方向会偏。",
+      "judge_valid": true
+    },
+    "rw-b002": {
+      "id": "rw-b002",
+      "followup": "它的申请流程是什么？",
+      "reference_rewrite": "转专业的申请流程是什么？",
+      "model_rewrite": "转专业有什么规定和申请流程？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 4,
+      "keeps_constraints": true,
+      "judge_reason": "指代消解正确指向转专业，但额外添加了“有什么规定”使问句偏离原追问的单一申请流程主题，表述略显冗余。",
+      "judge_valid": true
+    },
+    "rw-b003": {
+      "id": "rw-b003",
+      "followup": "宿舍晚上几点断电？",
+      "reference_rewrite": "宿舍晚上几点断电？",
+      "model_rewrite": "课程成绩对应的绩点按学分加权平均是多少？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 1,
+      "keeps_constraints": false,
+      "judge_reason": "模型改写完全抛弃用户关于宿舍断电时间的追问，错误地改写成历史中已提及的绩点计算公式，属于编造且严重跑偏。",
+      "judge_valid": true
+    },
+    "rw-b004": {
+      "id": "rw-b004",
+      "followup": "你好，请问一下辅修要修多少学分啊？谢谢",
+      "reference_rewrite": "辅修需要修多少学分？",
+      "model_rewrite": "辅修专业需要修多少学分啊？请告诉我。",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": false,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 5,
+      "keeps_constraints": true,
+      "judge_reason": "指代消解完全正确，保留了“辅修”与“多少学分”的核心信息，表述完整，适合检索。",
+      "judge_valid": true
+    },
+    "rw-q0039": {
+      "id": "rw-q0039",
+      "followup": "那上面说的‘学有余力’这个标准具体是怎么衡量的，有没有挂科限制？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「参加学校的勤工助学活动需要遵循哪些原则和前提条件？」）",
+      "model_rewrite": "参加学校的勤工助学活动需要遵循学有余力的标准，以及相关的前提条件。学有余力标准的具体内容包括挂科限制。",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": false,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 4,
+      "keeps_constraints": true,
+      "judge_reason": "正确消解指代并保留勤工助学前提条件限定，但改写略显冗余，将'学有余力'与前提条件并列可能造成检索歧义。",
+      "judge_valid": true
+    },
+    "rw-q0040": {
+      "id": "rw-q0040",
+      "followup": "那上面说的‘其它破坏活动’具体指什么？如果发生了这种情况，怎么判断它的严重程度呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「请问如果我破坏了公共财物或者私人财物，会受到什么样的处分呢？」）",
+      "model_rewrite": "用户：如果发生了“其它破坏活动”，如何判断它的严重程度？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 3,
+      "keeps_constraints": false,
+      "judge_reason": "改写遗漏了‘其它破坏活动’具体指什么的询问，只保留严重程度判断，指代消解部分遗漏关键信息。",
+      "judge_valid": true
+    },
+    "rw-q0041": {
+      "id": "rw-q0041",
+      "followup": "那上面说的这些部门和人员，具体是怎么履行这个育人职责的呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「学校开展勤工助学活动主要是为了什么？学校里哪些部门和人员负责管理我们的勤工助学工作？」）",
+      "model_rewrite": "各设岗单位及工作人员具体如何履行勤奋、严谨、规范的教育育人职责？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 3,
+      "keeps_constraints": false,
+      "judge_reason": "改写正确指向育人的履行方式，但遗漏了'学校学生勤工助学管理部门'这一主体，且用'勤奋、严谨、规范'替换了原文的育人职责表述，部分偏离原问。",
+      "judge_valid": true
+    },
+    "rw-q0042": {
+      "id": "rw-q0042",
+      "followup": "老师，上面说的不支持各二级单位使用校外域名，那如果是学生社团用校内IP建网站，它受不受这条规定的限制呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「老师，我们想用校内IP建个网站，能不能绑定非ncwu.edu.cn的校外域名啊，还是说只能解析学校的二级域名？」）",
+      "model_rewrite": "你，学生社团，建个网站，校内IP，校外域名，不支持各二级单位，受这条规定的限制。",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": false,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 3,
+      "keeps_constraints": true,
+      "judge_reason": "保留了'学生社团''校内IP''校外域名''二级单位''规定'等关键限定，指代方向基本正确，但改写为碎片化关键词堆砌、语句不通顺，且未明确指向第一轮问题的条款，表述质量差。",
+      "judge_valid": true
+    },
+    "rw-q0043": {
+      "id": "rw-q0043",
+      "followup": "那这个相近原则具体是怎么界定的呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「考研能用来认定重修课程吗？最多能认定几门课的成绩？」）",
+      "model_rewrite": "考研是否可以认定重修课程，最多能认定几门相关学科的课程成绩？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 1,
+      "keeps_constraints": false,
+      "judge_reason": "模型改写完全避开了用户追问的'相近原则如何界定'，复述了第一轮问题，未消解指代，检索方向跑偏。",
+      "judge_valid": true
+    },
+    "rw-q0044": {
+      "id": "rw-q0044",
+      "followup": "那上面说的‘项目训练’具体是怎么考核的？它占多大比重呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「请问这个多元化考核具体是怎么算成绩的？除了试卷考核，平时都包含哪些考核方式呢？」）",
+      "model_rewrite": "项目训练占多大比重，它怎么考核具体是怎样的，这个需要根据学校的具体政策和规定为准。",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": false,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 1,
+      "keeps_constraints": false,
+      "judge_reason": "模型改写未消解指代且编造了历史中不存在的信息，还加入了“需要根据学校政策为准”的臆造表述，完全不适合检索。",
+      "judge_valid": true
+    },
+    "rw-q0045": {
+      "id": "rw-q0045",
+      "followup": "那上面说的这个‘经学校审批同意’具体是指哪个部门审批呢？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「这个办法里提到的学生具体是指哪些人？」）",
+      "model_rewrite": "哪个部门负责审批呢？",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": true,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 3,
+      "keeps_constraints": false,
+      "judge_reason": "改写保留了‘哪个部门审批’的核心意图，但丢失了‘经学校审批同意’这一关键限定短语，未能完整还原追问与历史条款的指代关联，检索时可能偏离原条款语境。",
+      "judge_valid": true
+    },
+    "rw-q0046": {
+      "id": "rw-q0046",
+      "followup": "那上面说的‘经录取学校认定’，如果它最后不予承认，我还能有什么补救办法吗？",
+      "reference_rewrite": "（参考：应指向第一轮问题对应的条款，第一轮问题为「如果我中途退学了，以后重新考上大学，之前修过的学分还能算数吗？」）",
+      "model_rewrite": "如果我中途退学了，是否之前修过的学分还能算数，如果最后未获得学校的认可，是否有什么办法可以补救。",
+      "rule_checks": {
+        "length_ok": true,
+        "ends_with_question_mark": false,
+        "no_greeting": true,
+        "no_wrapper": true
+      },
+      "judge_score": 5,
+      "keeps_constraints": true,
+      "judge_reason": "指代消解正确，保留了退学后学分认定及不予承认时补救办法的完整语义，无编造信息，适合检索。",
+      "judge_valid": true
+    }
+  }
+}

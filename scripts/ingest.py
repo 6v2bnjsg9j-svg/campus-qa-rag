@@ -6,8 +6,9 @@ import re,os
 import psycopg2
 from dotenv import load_dotenv
 import os, pickle
-from study.db.model import embed_model
 from scripts.chunk import LawNode, milusNode
+from study.db.model import embed_model
+
 db_name="rag"
 load_dotenv(override=True)
 CN = r'[一二三四五六七八九十百零〇]+'
@@ -44,7 +45,7 @@ def remove_cchapter(raw: str) -> str:
 
 #--------------------人工操作，删除目录，整理不符合批量处理的提取，然后优化格式----------------------
 
-doc = fitz.open("docs/studentTextlast78.pdf")
+doc = fitz.open("../docs/studentTextlast78.pdf")
 
 docs = []
 
@@ -261,16 +262,16 @@ for i in range(0,len(cunchu_pdf)):
             if RE_ARTICLE.match(text):
                 if fentiao_y:
                     # 先暂时存储循环结束后统一提交（防止主循环出错）
-                    # print("----------------------------------------------------------")
+                    print("----------------------------------------------------------")
                     if fentiao_y.strip():
                         cunchu_tiao.append(LawNode(
                             block_id=cunchu_pdf[i].block_id, node_type="article", chapter_id=cunchu_pdf[i].chapter_id,
                             article_id=tiao_id, content=remove_chapter_article_prefix(fentiao_y)
                         ))
                         # print(f"第{cunchu_pdf[i].block_id}块")
-                        # print(f"第{cunchu_pdf[i].chapter_id}章")
+                        print(f"第{cunchu_pdf[i].chapter_id}章")
                         # print(f"第{tiao_id}条")
-                        # print(remove_chapter_article_prefix(fentiao_y))
+                        print(remove_chapter_article_prefix(fentiao_y))
                         total_sum+=1
                         tiao_id += 1
                 fentiao_y = text + "\n"
@@ -278,15 +279,15 @@ for i in range(0,len(cunchu_pdf)):
                 fentiao_y=fentiao_y+text+"\n"
         #推送最后一条
         if fentiao_y:
-            # print("----------------------------------------------------------")
+            print("----------------------------------------------------------")
             cunchu_tiao.append(LawNode(
                 block_id=cunchu_pdf[i].block_id, node_type="article", chapter_id=cunchu_pdf[i].chapter_id,
                 article_id=tiao_id, content=remove_chapter_article_prefix(fentiao_y)
             ))
             # print(f"第{cunchu_pdf[i].block_id}块")
-            # print(f"第{cunchu_pdf[i].chapter_id}章")
+            print(f"第{cunchu_pdf[i].chapter_id}章")
             # print(f"第{tiao_id}条")
-            # print(remove_chapter_article_prefix(fentiao_y))
+            print(remove_chapter_article_prefix(fentiao_y))
             total_sum += 1
 print(f"================================共计{total_sum}条======================================")
 
@@ -310,8 +311,15 @@ def batch_insert_law_nodes(nodes: list[LawNode]):
             cur.executemany(sql, params)
     print(f"入库完成，共 {len(params)} 条")
 
-# batch_insert_law_nodes(cunchu_pdf)
-# batch_insert_law_nodes(cunchu_tiao)
+
+
+
+
+#====================================================================
+# =======================这个是入库的==================================
+#====================================================================
+batch_insert_law_nodes(cunchu_pdf)
+batch_insert_law_nodes(cunchu_tiao)
 
 
 def split_long_text(text: str, max_len: int = 350, overlap: int = 30):
@@ -423,7 +431,6 @@ print(f"======================={b}个没有条款的==============")
 
 empty = [n for n in vector if not n.content or not n.content.strip()]
 print(f"空内容节点: {len(empty)}")   # 应该是 0
-# 1. 收集节点（纯 CPU，不花钱，随便跑）
 List_embeding = []
 PKL = "vector_1247.pkl"
 if os.path.exists(PKL):
@@ -435,8 +442,11 @@ else:
     i = 0
     while i < len(vector):
         vector2 = [vector[j].content for j in range(i, min(i+20, len(vector)))]
-        # Listvector = embed_model.embed_documents(vector2)
-        # List_embeding.extend(Listvector)
+        ##====================================================================
+        # =======================这个是请求向量的==================================
+        #====================================================================
+        Listvector = embed_model.embed_documents(vector2)
+        List_embeding.extend(Listvector)
         i += 20
         print(f"编码 {min(i, len(vector))}/{len(vector)}")
 
@@ -450,8 +460,7 @@ from pymilvus import MilvusClient
 
 client = MilvusClient("http://localhost:19530",db_name=db_name)
 
-# 建库
-db_name = "rag"
+#建库
 if db_name not in client.list_databases():
     client.create_database(db_name=db_name)
 client.use_database(db_name=db_name)
@@ -486,7 +495,11 @@ data = [
     for idx, node in enumerate(vector)
 ]
 
+
 # 批量 upsert
+##====================================================================
+# =======================这个是进入向量数据库的==================================
+# #====================================================================
 BATCH = 500
 for k in range(0, len(data), BATCH):
     client.upsert(collection_name=collection_name, data=data[k:k+BATCH])

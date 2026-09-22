@@ -1,5 +1,5 @@
 
-from langchain_core.messages import RemoveMessage, HumanMessage, AIMessage
+from langchain_core.messages import RemoveMessage, HumanMessage, AIMessage, ToolMessage
 from study.db.model import ollamamodel, mainModel, model
 from langgraph.runtime import Runtime
 from study.prompt import prompt_template, prompt_re_template, prompt_final_template
@@ -52,10 +52,20 @@ def sc_node(state, runtime):
 def final_sc_node(state: MainState) -> MainState:
     question = state["original_question"]
     text=state["context"]
-    clean_msgs = [
-        m for m in state["messages"]
-        if not (isinstance(m, AIMessage) and getattr(m, "tool_calls", None))
-    ]
+    clean_msgs = []
+    tool_results = []
+    for m in state["messages"]:
+        if isinstance(m, AIMessage) and getattr(m, "tool_calls", None):
+            continue
+        if isinstance(m, ToolMessage):
+            if m.content:
+                tool_results.append(m.content)
+            continue
+        clean_msgs.append(m)
+
+    if tool_results:
+        text = text + "\n\n### 工具查询到的完整条款\n" + "\n\n".join(tool_results)
+
     prompt_msgs = prompt_final_template.format_messages(context=text,question=question)
     msgs = prompt_msgs + clean_msgs
     content = model.invoke(msgs).content

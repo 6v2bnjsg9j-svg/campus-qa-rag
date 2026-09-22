@@ -4,6 +4,8 @@ from langchain_ollama import ChatOllama
 from langchain.embeddings import init_embeddings
 import os
 
+from langchain_openai import ChatOpenAI
+
 from study.tool.query_tool import search_zhang, search_kuan
 
 load_dotenv(override=True)
@@ -34,6 +36,12 @@ embed_model = init_embeddings(
     check_embedding_ctx_length=False
 )
 
+qwenmodel = ChatOpenAI(
+    model="qwen3.7-plus",
+    api_key=os.getenv("QIANWEN_ENBEDDING_KEY"),
+    base_url=os.getenv("QIANWEN_ENBEDDING_URL"),
+    extra_body={"enable_thinking": False}
+)
 
 tools=[search_kuan,search_zhang]
 mainModel=model.bind_tools(tools)

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 19:32:48",
+    "summary": {
+      "single": {
+        "n": 30,
+        "hit@3": 0.9333,
+        "hit@5": 0.9333,
+        "mrr": 0.9,
+        "ndcg@5": 0.9087,
+        "zero_docs_rate": 0.0,
+        "raw_hit_but_final_miss": 0,
+        "gold_killed_by_threshold": 0
+      },
+      "overview": {
+        "n": 8,
+        "hit@3": 0.75,
+        "hit@5": 0.75,
+        "mrr": 0.6042,
+        "ndcg@5": 0.6414,
+        "zero_docs_rate": 0.0,
+        "raw_hit_but_final_miss": 1,
+        "gold_killed_by_threshold": 1
+      },
+      "multi": {
+        "n": 8,
+        "hit@3": 0.125,
+        "hit@5": 0.125,
+        "mrr": 0.125,
+        "ndcg@5": 0.125,
+        "zero_docs_rate": 0.875,
+        "raw_hit_but_final_miss": 2,
+        "gold_killed_by_threshold": 2
+      },
+      "ALL": {
+        "n": 46,
+        "hit@3": 0.7609,
+        "hit@5": 0.7609,
+        "mrr": 0.7138,
+        "ndcg@5": 0.7259,
+        "zero_docs_rate": 0.1522,
+        "raw_hit_but_final_miss": 3,
+        "gold_killed_by_threshold": 3
+      }
+    }
+  },
+  "samples": {}
+}

@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 19:56:04",
+    "summary": {
+      "multi": {
+        "n": 8,
+        "latency": {
+          "n": 8,
+          "mean": 30.148,
+          "median": 24.505,
+          "p95": 59.022,
+          "p99": 64.529,
+          "max": 65.906,
+          "min": 10.138
+        },
+        "node_durations": {
+          "buquan_node": {
+            "avg": 26.844,
+            "share": 0.8904,
+            "hit_count": 8
+          },
+          "sc_node": {
+            "avg": 2.56,
+            "share": 0.0743,
+            "hit_count": 7
+          },
+          "jiansuo_node": {
+            "avg": 1.029,
+            "share": 0.0341,
+            "hit_count": 8
+          },
+          "tool_node": {
+            "avg": 0.091,
+            "share": 0.0008,
+            "hit_count": 2
+          },
+          "process_docs_node": {
+            "avg": 0.005,
+            "share": 0.0001,
+            "hit_count": 8
+          },
+          "caijian_node": {
+            "avg": 0.003,
+            "share": 0.0001,
+            "hit_count": 8
+          },
+          "is_have_node": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 8
+          },
+          "router_tool": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 7
+          },
+          "press_sc_node": {
+            "avg": 0.001,
+            "share": 0.0,
+            "hit_count": 7
+          }
+        },
+        "tool_used_rate": 0.25,
+        "avg_tool_msg_count": 0.75,
+        "avg_rewrite_count": 2.375,
+        "refusal_rate": 0.125
+      },
+      "ookb": {
+        "n": 8,
+        "latency": {
+          "n": 8,
+          "mean": 29.277,
+          "median": 30.425,
+          "p95": 43.089,
+          "p99": 45.815,
+          "max": 46.496,
+          "min": 13.226
+        },
+        "node_durations": {
+          "buquan_node": {
+            "avg": 28.053,
+            "share": 0.9582,
+            "hit_count": 8
+          },
+          "jiansuo_node": {
+            "avg": 1.214,
+            "share": 0.0415,
+            "hit_count": 8
+          },
+          "process_docs_node": {
+            "avg": 0.005,
+            "share": 0.0002,
+            "hit_count": 8
+          },
+          "caijian_node": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 8
+          },
+          "is_have_node": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 8
+          }
+        },
+        "tool_used_rate": 0.0,
+        "avg_tool_msg_count": 0.0,
+        "avg_rewrite_count": 3.0,
+        "refusal_rate": 1.0
+      },
+      "overview": {
+        "n": 7,
+        "latency": {
+          "n": 7,
+          "mean": 7.966,
+          "median": 7.535,
+          "p95": 10.15,
+          "p99": 10.553,
+          "max": 10.654,
+          "min": 6.319
+        },
+        "node_durations": {
+          "buquan_node": {
+            "avg": 4.463,
+            "share": 0.5603,
+            "hit_count": 7
+          },
+          "sc_node": {
+            "avg": 3.009,
+            "share": 0.3777,
+            "hit_count": 7
+          },
+          "jiansuo_node": {
+            "avg": 0.38,
+            "share": 0.0477,
+            "hit_count": 7
+          },
+          "tool_node": {
+            "avg": 0.124,
+            "share": 0.0133,
+            "hit_count": 6
+          },
+          "caijian_node": {
+            "avg": 0.002,
+            "share": 0.0003,
+            "hit_count": 7
+          },
+          "process_docs_node": {
+            "avg": 0.002,
+            "share": 0.0002,
+            "hit_count": 7
+          },
+          "router_tool": {
+            "avg": 0.002,
+            "share": 0.0002,
+            "hit_count": 7
+          },
+          "is_have_node": {
+            "avg": 0.001,
+            "share": 0.0001,
+            "hit_count": 7
+          },
+          "press_sc_node": {
+            "avg": 0.001,
+            "share": 0.0001,
+            "hit_count": 7
+          }
+        },
+        "tool_used_rate": 0.8571,
+        "avg_tool_msg_count": 1.286,
+        "avg_rewrite_count": 1.0,
+        "refusal_rate": 0.0
+      },
+      "single": {
+        "n": 30,
+        "latency": {
+          "n": 30,
+          "mean": 20.059,
+          "median": 14.372,
+          "p95": 44.919,
+          "p99": 51.31,
+          "max": 53.144,
+          "min": 3.999
+        },
+        "node_durations": {
+          "buquan_node": {
+            "avg": 17.183,
+            "share": 0.8566,
+            "hit_count": 30
+          },
+          "sc_node": {
+            "avg": 2.006,
+            "share": 0.1,
+            "hit_count": 30
+          },
+          "jiansuo_node": {
+            "avg": 0.821,
+            "share": 0.0409,
+            "hit_count": 30
+          },
+          "tool_node": {
+            "avg": 0.115,
+            "share": 0.0017,
+            "hit_count": 9
+          },
+          "caijian_node": {
+            "avg": 0.007,
+            "share": 0.0003,
+            "hit_count": 30
+          },
+          "process_docs_node": {
+            "avg": 0.003,
+            "share": 0.0002,
+            "hit_count": 30
+          },
+          "router_tool": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 30
+          },
+          "is_have_node": {
+            "avg": 0.001,
+            "share": 0.0001,
+            "hit_count": 30
+          },
+          "press_sc_node": {
+            "avg": 0.001,
+            "share": 0.0,
+            "hit_count": 30
+          }
+        },
+        "tool_used_rate": 0.3,
+        "avg_tool_msg_count": 0.367,
+        "avg_rewrite_count": 1.933,
+        "refusal_rate": 0.0
+      },
+      "ALL": {
+        "n": 53,
+        "latency": {
+          "n": 53,
+          "mean": 21.376,
+          "median": 16.068,
+          "p95": 46.626,
+          "p99": 59.27,
+          "max": 65.906,
+          "min": 3.999
+        },
+        "node_durations": {
+          "buquan_node": {
+            "avg": 18.602,
+            "share": 0.8702,
+            "hit_count": 53
+          },
+          "sc_node": {
+            "avg": 2.254,
+            "share": 0.0875,
+            "hit_count": 44
+          },
+          "jiansuo_node": {
+            "avg": 0.854,
+            "share": 0.0399,
+            "hit_count": 53
+          },
+          "tool_node": {
+            "avg": 0.115,
+            "share": 0.0017,
+            "hit_count": 17
+          },
+          "caijian_node": {
+            "avg": 0.005,
+            "share": 0.0002,
+            "hit_count": 53
+          },
+          "process_docs_node": {
+            "avg": 0.004,
+            "share": 0.0002,
+            "hit_count": 53
+          },
+          "router_tool": {
+            "avg": 0.002,
+            "share": 0.0001,
+            "hit_count": 44
+          },
+          "is_have_node": {
+            "avg": 0.001,
+            "share": 0.0001,
+            "hit_count": 53
+          },
+          "press_sc_node": {
+            "avg": 0.001,
+            "share": 0.0,
+            "hit_count": 44
+          }
+        },
+        "tool_used_rate": 0.3208,
+        "avg_tool_msg_count": 0.491,
+        "avg_rewrite_count": 2.038,
+        "refusal_rate": 0.1698
+      }
+    }
+  },
+  "samples": {}
+}

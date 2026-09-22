@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "updated_at": "2026-09-26 18:47:43",
+    "summary": {
+      "n": 12,
+      "avg_judge_score": 4.667,
+      "rule_pass_rate": {
+        "length_ok": 1.0,
+        "ends_with_question_mark": 1.0,
+        "no_greeting": 1.0,
+        "no_wrapper": 1.0
+      },
+      "keeps_constraints_rate": 0.9167
+    }
+  },
+  "samples": {}
+}

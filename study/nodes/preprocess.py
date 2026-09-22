@@ -1,7 +1,7 @@
 from langchain_core.messages import RemoveMessage, HumanMessage, AIMessage
 from langgraph.runtime import Runtime
 
-from study.db.model import ollamamodel
+from study.db.model import ollamamodel, qwenmodel
 from study.prompt import prompt_re_template
 from study.state import MainState
 
@@ -40,26 +40,39 @@ def caijian_node(state:MainState,runtime:Runtime)->MainState:
 
 
 #================================补全本次问题=============================
-#设计是用户会出现各种不明确的问题（它是什么？一类）#这时候就需要大模型来补全问题了
-def buquan_node(state:MainState,runtime:Runtime)->MainState:
+def buquan_node(state: MainState, runtime: Runtime) -> MainState:
     stream_writer = runtime.stream_writer
     stream_writer("补全问题，使问题更加清晰易懂")
+
+    messages = state["messages"]
+
+    # ---- 拆分：最后一条 Human 是"最新提问"，其余是"历史" ----
+    last_human_idx = -1
+    for i in range(len(messages) - 1, -1, -1):
+        if isinstance(messages[i], HumanMessage):
+            last_human_idx = i
+            break
+    latest_question = messages[last_human_idx].content
+
+    # 历史部分：最后一条 Human 之前的对话（跳过工具消息，AI 只取有正文的）
     history_lines = []
-    for m in state["messages"]:
+    for m in messages[:last_human_idx]:
         if isinstance(m, HumanMessage):
             history_lines.append(f"用户：{m.content}")
         elif isinstance(m, AIMessage) and m.content:
-            history_lines.append(f"助手：{m.content}")
-        # ToolMessage / 带 tool_calls 的 AI 一律跳过
-    text = "\n".join(history_lines) or "（无）"
-    promptmessages=prompt_re_template.format_messages(
-        history=text
+            content = m.content if len(m.content) <= 200 else m.content[:200] + "…"
+            history_lines.append(f"助手：{content}")
+    older_history = "\n".join(history_lines) if history_lines else "（无）"
+
+    # ---- 组装并调用 ----
+    promptmessages = prompt_re_template.format_messages(
+        latest_question=latest_question,
+        older_history=older_history,
     )
-    #调用本地大模型生成
-    rewritten_question=ollamamodel.invoke(promptmessages).content.strip()
-    #重写次数加一
+    raw_output = qwenmodel.invoke(promptmessages).content
+
     re = state.get("rewrite_count", 0)
     return {
-        "rewritten_question":rewritten_question,
-        "rewrite_count" : re+1
+        "rewritten_question": raw_output,
+        "rewrite_count": re + 1,
     }
