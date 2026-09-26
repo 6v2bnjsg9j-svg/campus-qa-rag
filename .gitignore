@@ -30,6 +30,7 @@ logs/
 data/
 *.pdf
 *.zip
+*.pkl
 
 # 测试缓存
 .pytest_cache/
