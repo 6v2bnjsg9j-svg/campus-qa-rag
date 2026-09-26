@@ -239,7 +239,6 @@ study/
 - [ ] **接入 Rerank**：目前纯向量召回在某些长尾问题上还是会召回无关条款，打算加一层重排序（BGE-Rerank）过滤。
 - [ ] **切分策略优化**：目前特殊文档（如表格、附件）还没处理得太好，打算单独做一个解析通道。
 - [ ] **FastAPI 接口化**：目前只能命令行跑，下一步想封装成 Web API 给前端调用。
->>>>>>> cb001a9 (feat: optimize query rewriting (switch to Qwen model + new prompts), fix orphaned tool message bug, and add quantitative evaluation metrics and optimization directions)
 
 
 ## 🕳️ 踩坑与解决记录
